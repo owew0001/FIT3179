@@ -7,20 +7,26 @@
     <script src="https://cdn.jsdelivr.net/npm/vega@5.20.2"></script>
     <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.1.0"></script>
     <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.17.0"></script>
-    <script src="vega_lite_vis.js"></script>
     <title>First Vega-Lite graph </title>
 </head>
 
 <body>
 
-    <h1>First Vega-Lite graph</h1>
+    <h1>An Exploration of Australian Endangered Plant Species</h1>
+    <div id="dot_map"></div>
     <div id="bar_chart"></div>
+    <div id="time_series"></div>
 
     <script>
         var vg_1 = "./Visualisations/BarGraph.vg.json";
-        vegaEmbed("#bar_chart",vg_1).then(function(result){
+        var vg_2 = "./Visualisations/DotMap.vg.json";
+        var vg_3 = "./Visualisations/TimeSeries.vg.json";
 
-        }).catch(console.error);
+        vegaEmbed("#bar_chart",vg_1).then(function(result){}).catch(console.error);
+
+        vegaEmbed("#dot_map",vg_2).then(function(result){}).catch(console.error);
+
+        vegaEmbed("#time_series",vg_3).then(function(result){}).catch(console.error);
     </script>
 </body>
 
