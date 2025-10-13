@@ -1,0 +1,23 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": 800,
+  "height": 450,
+  "title": "Endangered Plants across Australia",
+  "layer": [
+    {
+      "data":{
+        "url": "https://raw.githubusercontent.com/owew0001/FIT3179/refs/heads/main/Data/Conservation_Data.csv"
+
+      },
+      "mark":{"type": "bar" },
+
+      "encoding": {
+        "x":{"field":"State","type": "nominal","axis":{"labelAngle":-45}},
+        "y":{"aggregate":"count","type": "quantitative"},
+        "color":{"field":"MaxStatus","type":"ordinal","scale":{"domain":["Near Threatened","Vulnerable","Endangered","Critically Endangered"],"range":["#d8f3dc","#95d5b2","#52b788","#2d6a4f"]}}
+      }
+
+      }
+    
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "background":"lightskyblue",
+  "width": 800,
+  "height": 450,
+  "title": "Endangered Plants across Australia",
+  "projection": {"type": "mercator"},
+  "layer": [
+    {
+      "data": {
+        "url": "https://raw.githubusercontent.com/owew0001/FIT3179/refs/heads/main/Data/MapData",
+        "format": {"type": "topojson", "feature": "STE_2016_AUST"}
+      },
+      "mark": {"type": "geoshape", "fill": "#fdf0d5", "stroke": "#76c893"}
+    },
+    {
+      "data":{
+        "url": "https://raw.githubusercontent.com/owew0001/FIT3179/refs/heads/main/Data/Conservation_Data.csv"
+
+      },
+      "mark":{"type": "circle","size":40,"stroke":"black","strokeWidth":0.5 },
+
+      "encoding": {
+        "longitude":{"field":"RegionCentroidLongitude","type": "quantitative"},
+        "latitude":{"field":"RegionCentroidLatitude", "type": "quantitative"},
+        "tooltip":[{"field":"EPBCStatus","type": "ordinal", "title":"Status"},{"field":"Binomial","type": "nominal","title": "Name"}],
+        "color":{"field":"EPBCStatus","type": "ordinal","scale":{"domain":["Vulnerable","Endangered","Critically Endangered"],"range":["#95D5B2","#40916C","#081C15"]}}
+      }
+
+      }
+    
+  ],
+  "view": {"fill":"lightskyblue"}
+}

@@ -1,0 +1,48 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+ 
+  "title": "Plants Classified as 'At Risk' from 2000 to 2025",
+  "data": {"url": "https://raw.githubusercontent.com/owew0001/FIT3179/refs/heads/main/Data/TimeSeriesPlantSpecies.csv"},
+  "transform": [{"filter":{"field": "Status","oneOf":["Vulnerable", "Endangered","Critically Endangered"]}},
+    {"timeUnit":"yearmonth",
+      "field": "Date of Classification",
+      "as": "year"},
+
+        {"aggregate": [{"op": "count","field": "Name","as": "count"}],
+                    "groupby": ["year","Status"]},
+
+        {"impute": "count",
+        "groupby": ["Status"], 
+        "key": "year",
+        "method": "value",
+        "value":0},
+
+        {"window": [{"op": "sum","field": "count","as": "cumulative_value"}],
+                    "groupby": ["Status"],
+                    "sort": [{"field": "year","order":"ascending"}],
+                    "frame": [null, 0]},
+
+        {"window": [{"op": "sum","field": "count","as": "cumulative"}],
+                    "sort": [{"field": "year","order":"ascending"}],
+                    "frame": [null, 0]}],
+
+  "vconcat": [
+    { "width": 800,
+      "height": 450,
+      "mark": {"type": "area"},
+      "encoding": {
+        "x": {"field":"year","type": "temporal","axis": {"title": "Year", "format": "%b %Y"},"scale":{"domain":{"param": "brush"}}},
+        "y": {"field":"cumulative_value","type": "quantitative","axis":{"grid": false,"title":"'At Risk' Plant Species"}},
+        "color":{"field":"Status","type": "ordinal","scale":{"domain":["Vulnerable", "Endangered","Critically Endangered"],"range":["#95d5b2","#52b788","#2d6a4f"]}}}
+    },
+    {
+      "height":100,
+      "width":800,
+      "mark":{"type": "line","color":"#2d6a4f"},
+      "params": [{"name": "brush","select":{"type": "interval","encodings": ["x"]}}],
+      "encoding": {"x": {"field":"year","type": "temporal","axis": {"title": "", "format": "%Y"}},
+                  "y": {"field":"cumulative","type": "quantitative","axis": {"title": ""}}},
+      "title": "Use this line chart to filter out the data based on time"
+    }
+  ]
+}
