@@ -1,938 +1,207 @@
-"","RegionCentroidLatitude","RegionCentroidLongitude","ID","Binomial","State","MaxStatus","count"
-"1",-42.56615211,145.6211809,5291,"Prasophyllum_crebriflorum","Tasmania","Endangered",1
-"2",-41.28197086,146.1451601,4779,"Caladenia_caudata","Tasmania","Vulnerable",1
-"3",-40.43566564,147.8210816,5259,"Phebalium_daviesii","Tasmania","Critically Endangered",3
-"4",-40.43566564,147.8210816,5260,"Phebalium_daviesii","Tasmania","Critically Endangered",3
-"5",-40.43566564,147.8210816,5304,"Prasophyllum_pulchellum","Tasmania","Critically Endangered",3
-"6",-38.75598286,143.6921367,5120,"Leiocarpa_gatesii","Victoria","Vulnerable",11
-"7",-38.75598286,143.6921367,5121,"Leiocarpa_gatesii","Victoria","Vulnerable",11
-"8",-38.75598286,143.6921367,5122,"Leiocarpa_gatesii","Victoria","Vulnerable",11
-"9",-38.75598286,143.6921367,5123,"Leiocarpa_gatesii","Victoria","Vulnerable",11
-"10",-38.75598286,143.6921367,5124,"Leiocarpa_gatesii","Victoria","Vulnerable",11
-"11",-38.75598286,143.6921367,5125,"Leiocarpa_gatesii","Victoria","Vulnerable",11
-"12",-38.75598286,143.6921367,5126,"Leiocarpa_gatesii","Victoria","Vulnerable",11
-"13",-38.75598286,143.6921367,5127,"Leiocarpa_gatesii","Victoria","Vulnerable",11
-"14",-38.75598286,143.6921367,5128,"Leiocarpa_gatesii","Victoria","Vulnerable",11
-"15",-38.75598286,143.6921367,5129,"Leiocarpa_gatesii","Victoria","Vulnerable",11
-"16",-38.75598286,143.6921367,5130,"Leiocarpa_gatesii","Victoria","Vulnerable",11
-"17",-38.38643205,146.2603928,5330,"Prostanthera_galbraithiae","Victoria","Vulnerable",6
-"18",-38.38643205,146.2603928,5331,"Prostanthera_galbraithiae","Victoria","Vulnerable",6
-"19",-38.38643205,146.2603928,5332,"Prostanthera_galbraithiae","Victoria","Vulnerable",6
-"20",-38.38643205,146.2603928,5561,"Xerochrysum_palustre","Victoria","Vulnerable",6
-"21",-38.38643205,146.2603928,5563,"Xerochrysum_palustre","Victoria","Vulnerable",6
-"22",-38.38643205,146.2603928,5564,"Xerochrysum_palustre","Victoria","Vulnerable",6
-"23",-38.32100885,144.2402249,5059,"Grevillea_infecunda","Victoria","Vulnerable",26
-"24",-38.32100885,144.2402249,5060,"Grevillea_infecunda","Victoria","Vulnerable",26
-"25",-38.32100885,144.2402249,5061,"Grevillea_infecunda","Victoria","Vulnerable",26
-"26",-38.32100885,144.2402249,5062,"Grevillea_infecunda","Victoria","Vulnerable",26
-"27",-38.32100885,144.2402249,5063,"Grevillea_infecunda","Victoria","Vulnerable",26
-"28",-38.32100885,144.2402249,5064,"Grevillea_infecunda","Victoria","Vulnerable",26
-"29",-38.32100885,144.2402249,5065,"Grevillea_infecunda","Victoria","Vulnerable",26
-"30",-38.32100885,144.2402249,5066,"Grevillea_infecunda","Victoria","Vulnerable",26
-"31",-38.32100885,144.2402249,5067,"Grevillea_infecunda","Victoria","Vulnerable",26
-"32",-38.32100885,144.2402249,5068,"Grevillea_infecunda","Victoria","Vulnerable",26
-"33",-38.32100885,144.2402249,5069,"Grevillea_infecunda","Victoria","Vulnerable",26
-"34",-38.32100885,144.2402249,5070,"Grevillea_infecunda","Victoria","Vulnerable",26
-"35",-38.32100885,144.2402249,5071,"Grevillea_infecunda","Victoria","Vulnerable",26
-"36",-38.32100885,144.2402249,5072,"Grevillea_infecunda","Victoria","Vulnerable",26
-"37",-38.32100885,144.2402249,5073,"Grevillea_infecunda","Victoria","Vulnerable",26
-"38",-38.32100885,144.2402249,5074,"Grevillea_infecunda","Victoria","Vulnerable",26
-"39",-38.32100885,144.2402249,5075,"Grevillea_infecunda","Victoria","Vulnerable",26
-"40",-38.32100885,144.2402249,5076,"Grevillea_infecunda","Victoria","Vulnerable",26
-"41",-38.32100885,144.2402249,5077,"Grevillea_infecunda","Victoria","Vulnerable",26
-"42",-38.32100885,144.2402249,5078,"Grevillea_infecunda","Victoria","Vulnerable",26
-"43",-38.32100885,144.2402249,5079,"Grevillea_infecunda","Victoria","Vulnerable",26
-"44",-38.32100885,144.2402249,5080,"Grevillea_infecunda","Victoria","Vulnerable",26
-"45",-38.32100885,144.2402249,5081,"Grevillea_infecunda","Victoria","Vulnerable",26
-"46",-38.32100885,144.2402249,5082,"Grevillea_infecunda","Victoria","Vulnerable",26
-"47",-38.32100885,144.2402249,5083,"Grevillea_infecunda","Victoria","Vulnerable",26
-"48",-38.32100885,144.2402249,5084,"Grevillea_infecunda","Victoria","Vulnerable",26
-"49",-37.84704817,143.2517563,5006,"Dianella_amoena","Victoria","Endangered",23
-"50",-37.84704817,143.2517563,5131,"Lepidium_aschersonii","Victoria","Vulnerable",23
-"51",-37.84704817,143.2517563,5133,"Lepidium_aschersonii","Victoria","Vulnerable",23
-"52",-37.84704817,143.2517563,5134,"Lepidium_aschersonii","Victoria","Vulnerable",23
-"53",-37.84704817,143.2517563,5135,"Lepidium_aschersonii","Victoria","Vulnerable",23
-"54",-37.84704817,143.2517563,5136,"Lepidium_aschersonii","Victoria","Vulnerable",23
-"55",-37.84704817,143.2517563,5137,"Lepidium_aschersonii","Victoria","Vulnerable",23
-"56",-37.84704817,143.2517563,5305,"Prasophyllum_suaveolens","Victoria","Endangered",23
-"57",-37.84704817,143.2517563,5306,"Prasophyllum_suaveolens","Victoria","Endangered",23
-"58",-37.84704817,143.2517563,5307,"Prasophyllum_suaveolens","Victoria","Endangered",23
-"59",-37.84704817,143.2517563,5308,"Prasophyllum_suaveolens","Victoria","Endangered",23
-"60",-37.84704817,143.2517563,5309,"Prasophyllum_suaveolens","Victoria","Endangered",23
-"61",-37.84704817,143.2517563,5383,"Pterostylis_basaltica","Victoria","Endangered",23
-"62",-37.84704817,143.2517563,5455,"Rutidosis_leptorhynchoides","Victoria","Endangered",23
-"63",-37.84704817,143.2517563,5467,"Senecio_macrocarpus","Victoria","Vulnerable",23
-"64",-37.84704817,143.2517563,5468,"Senecio_macrocarpus","Victoria","Vulnerable",23
-"65",-37.84704817,143.2517563,5469,"Senecio_macrocarpus","Victoria","Vulnerable",23
-"66",-37.84704817,143.2517563,5470,"Senecio_macrocarpus","Victoria","Vulnerable",23
-"67",-37.84704817,143.2517563,5471,"Senecio_macrocarpus","Victoria","Vulnerable",23
-"68",-37.84704817,143.2517563,5472,"Senecio_macrocarpus","Victoria","Vulnerable",23
-"69",-37.84704817,143.2517563,5473,"Senecio_macrocarpus","Victoria","Vulnerable",23
-"70",-37.84704817,143.2517563,5474,"Senecio_macrocarpus","Victoria","Vulnerable",23
-"71",-37.84704817,143.2517563,5562,"Xerochrysum_palustre","Victoria","Vulnerable",23
-"72",-37.67163105,146.4117217,5035,"Eucalyptus_ornans","Victoria","Critically Endangered",1
-"73",-37.34930962,140.0267898,5024,"Acanthocladium_dockeri","South Australia","Critically Endangered",6
-"74",-37.34930962,140.0267898,5292,"Prasophyllum_frenchii","South Australia","Endangered",6
-"75",-37.34930962,140.0267898,5293,"Prasophyllum_frenchii","South Australia","Endangered",6
-"76",-37.34930962,140.0267898,5294,"Prasophyllum_frenchii","South Australia","Endangered",6
-"77",-37.34930962,140.0267898,5295,"Prasophyllum_frenchii","South Australia","Endangered",6
-"78",-37.34930962,140.0267898,5296,"Prasophyllum_frenchii","South Australia","Endangered",6
-"79",-37.34715227,148.3701071,5557,"Thesium_australe","Victoria","Vulnerable",1
-"80",-37.25678172,142.3822528,4736,"Borya_mirabilis","Victoria","Endangered",3
-"81",-37.25678172,142.3822528,5479,"Sphaerolobium_acanthos","Victoria","Critically Endangered",3
-"82",-37.25678172,142.3822528,5480,"Sphaerolobium_acanthos","Victoria","Critically Endangered",3
-"83",-37.21970708,144.8841341,5004,"Daviesia_laevis","Victoria","Vulnerable",8
-"84",-37.21970708,144.8841341,5283,"Pomaderris_subplicata","Victoria","Vulnerable",8
-"85",-37.21970708,144.8841341,5284,"Pomaderris_subplicata","Victoria","Vulnerable",8
-"86",-37.21970708,144.8841341,5285,"Pomaderris_subplicata","Victoria","Vulnerable",8
-"87",-37.21970708,144.8841341,5286,"Pomaderris_subplicata","Victoria","Vulnerable",8
-"88",-37.21970708,144.8841341,5287,"Pomaderris_subplicata","Victoria","Vulnerable",8
-"89",-37.21970708,144.8841341,5288,"Pomaderris_subplicata","Victoria","Vulnerable",8
-"90",-37.21970708,144.8841341,5289,"Pomaderris_subplicata","Victoria","Vulnerable",8
-"91",-37.11906715,148.6075466,5554,"Thesium_australe","Victoria","Vulnerable",1
-"92",-36.95318691,140.406113,4849,"Cassinia_tegulata","South Australia","Critically Endangered",1
-"93",-36.88372003,146.7575184,5132,"Lepidium_aschersonii","Victoria","Vulnerable",2
-"94",-36.88372003,146.7575184,5577,"Zieria_citriodora","Victoria","Vulnerable",2
-"95",-36.85791566,143.9087018,4848,"Calochilus_richiae","Victoria","Endangered",13
-"96",-36.85791566,143.9087018,5466,"Senecio_macrocarpus","Victoria","Vulnerable",13
-"97",-36.85791566,143.9087018,5635,"Ballantinia_antipoda","Victoria","Endangered",13
-"98",-36.85791566,143.9087018,5636,"Ballantinia_antipoda","Victoria","Endangered",13
-"99",-36.85791566,143.9087018,5637,"Ballantinia_antipoda","Victoria","Endangered",13
-"100",-36.85791566,143.9087018,5638,"Ballantinia_antipoda","Victoria","Endangered",13
-"101",-36.85791566,143.9087018,5639,"Ballantinia_antipoda","Victoria","Endangered",13
-"102",-36.85791566,143.9087018,5640,"Ballantinia_antipoda","Victoria","Endangered",13
-"103",-36.85791566,143.9087018,5641,"Ballantinia_antipoda","Victoria","Endangered",13
-"104",-36.85791566,143.9087018,5642,"Ballantinia_antipoda","Victoria","Endangered",13
-"105",-36.85791566,143.9087018,5643,"Ballantinia_antipoda","Victoria","Endangered",13
-"106",-36.85791566,143.9087018,5644,"Ballantinia_antipoda","Victoria","Endangered",13
-"107",-36.85791566,143.9087018,5645,"Ballantinia_antipoda","Victoria","Endangered",13
-"108",-36.84486422,148.0156427,5552,"Thesium_australe","Victoria","Vulnerable",4
-"109",-36.84486422,148.0156427,5553,"Thesium_australe","Victoria","Vulnerable",4
-"110",-36.84486422,148.0156427,5555,"Thesium_australe","Victoria","Vulnerable",4
-"111",-36.84486422,148.0156427,5556,"Thesium_australe","Victoria","Vulnerable",4
-"112",-36.5434572,142.1688746,4728,"Acacia_enterocarpa","Victoria","Endangered",9
-"113",-36.5434572,142.1688746,4729,"Acacia_enterocarpa","Victoria","Endangered",9
-"114",-36.5434572,142.1688746,4730,"Acacia_enterocarpa","Victoria","Endangered",9
-"115",-36.5434572,142.1688746,4731,"Acacia_enterocarpa","Victoria","Endangered",9
-"116",-36.5434572,142.1688746,4732,"Acacia_enterocarpa","Victoria","Endangered",9
-"117",-36.5434572,142.1688746,5486,"Spyridium_furculentum","Victoria","Endangered",9
-"118",-36.5434572,142.1688746,5487,"Spyridium_furculentum","Victoria","Endangered",9
-"119",-36.5434572,142.1688746,5496,"Swainsona_murrayana","Victoria","Vulnerable",9
-"120",-36.5434572,142.1688746,5500,"Swainsona_murrayana","Victoria","Vulnerable",9
-"121",-36.53324171,149.7389788,5282,"Pomaderris_pallida","New South Wales","Vulnerable",5
-"122",-36.53324171,149.7389788,5575,"Zieria_adenophora","New South Wales","Critically Endangered",5
-"123",-36.53324171,149.7389788,5576,"Zieria_buxijugum","New South Wales","Critically Endangered",5
-"124",-36.53324171,149.7389788,5578,"Zieria_formosa","New South Wales","Endangered",5
-"125",-36.53324171,149.7389788,5601,"Zieria_tuberculata","New South Wales","Vulnerable",5
-"126",-36.31880487,144.9278026,5456,"Senecio_behrianus","Victoria","Endangered",38
-"127",-36.31880487,144.9278026,5458,"Senecio_behrianus","Victoria","Endangered",38
-"128",-36.31880487,144.9278026,5459,"Senecio_behrianus","Victoria","Endangered",38
-"129",-36.31880487,144.9278026,5491,"Swainsona_murrayana","Victoria","Vulnerable",38
-"130",-36.31880487,144.9278026,5492,"Swainsona_murrayana","Victoria","Vulnerable",38
-"131",-36.31880487,144.9278026,5495,"Swainsona_murrayana","Victoria","Vulnerable",38
-"132",-36.31880487,144.9278026,5497,"Swainsona_murrayana","Victoria","Vulnerable",38
-"133",-36.31880487,144.9278026,5498,"Swainsona_murrayana","Victoria","Vulnerable",38
-"134",-36.31880487,144.9278026,5499,"Swainsona_murrayana","Victoria","Vulnerable",38
-"135",-36.31880487,144.9278026,5501,"Swainsona_murrayana","Victoria","Vulnerable",38
-"136",-36.31880487,144.9278026,5503,"Swainsona_murrayana","Victoria","Vulnerable",38
-"137",-36.31880487,144.9278026,5504,"Swainsona_murrayana","Victoria","Vulnerable",38
-"138",-36.31880487,144.9278026,5505,"Swainsona_murrayana","Victoria","Vulnerable",38
-"139",-36.31880487,144.9278026,5507,"Swainsona_plagiotropis","Victoria","Vulnerable",38
-"140",-36.31880487,144.9278026,5509,"Swainsona_plagiotropis","Victoria","Vulnerable",38
-"141",-36.31880487,144.9278026,5510,"Swainsona_plagiotropis","Victoria","Vulnerable",38
-"142",-36.31880487,144.9278026,5511,"Swainsona_plagiotropis","Victoria","Vulnerable",38
-"143",-36.31880487,144.9278026,5512,"Swainsona_plagiotropis","Victoria","Vulnerable",38
-"144",-36.31880487,144.9278026,5513,"Swainsona_plagiotropis","Victoria","Vulnerable",38
-"145",-36.31880487,144.9278026,5514,"Swainsona_plagiotropis","Victoria","Vulnerable",38
-"146",-36.31880487,144.9278026,5515,"Swainsona_plagiotropis","Victoria","Vulnerable",38
-"147",-36.31880487,144.9278026,5516,"Swainsona_plagiotropis","Victoria","Vulnerable",38
-"148",-36.31880487,144.9278026,5517,"Swainsona_plagiotropis","Victoria","Vulnerable",38
-"149",-36.31880487,144.9278026,5518,"Swainsona_plagiotropis","Victoria","Vulnerable",38
-"150",-36.31880487,144.9278026,5519,"Swainsona_plagiotropis","Victoria","Vulnerable",38
-"151",-36.31880487,144.9278026,5520,"Swainsona_plagiotropis","Victoria","Vulnerable",38
-"152",-36.31880487,144.9278026,5521,"Swainsona_plagiotropis","Victoria","Vulnerable",38
-"153",-36.31880487,144.9278026,5522,"Swainsona_plagiotropis","Victoria","Vulnerable",38
-"154",-36.31880487,144.9278026,5523,"Swainsona_plagiotropis","Victoria","Vulnerable",38
-"155",-36.31880487,144.9278026,5524,"Swainsona_plagiotropis","Victoria","Vulnerable",38
-"156",-36.31880487,144.9278026,5525,"Swainsona_plagiotropis","Victoria","Vulnerable",38
-"157",-36.31880487,144.9278026,5526,"Swainsona_plagiotropis","Victoria","Vulnerable",38
-"158",-36.31880487,144.9278026,5527,"Swainsona_plagiotropis","Victoria","Vulnerable",38
-"159",-36.31880487,144.9278026,5528,"Swainsona_plagiotropis","Victoria","Vulnerable",38
-"160",-36.31880487,144.9278026,5529,"Swainsona_plagiotropis","Victoria","Vulnerable",38
-"161",-36.31880487,144.9278026,5530,"Swainsona_plagiotropis","Victoria","Vulnerable",38
-"162",-36.31880487,144.9278026,5531,"Swainsona_plagiotropis","Victoria","Vulnerable",38
-"163",-36.31880487,144.9278026,5532,"Swainsona_plagiotropis","Victoria","Vulnerable",38
-"164",-36.26694844,146.8284097,5506,"Swainsona_plagiotropis","Victoria","Vulnerable",2
-"165",-36.26694844,146.8284097,5508,"Swainsona_plagiotropis","Victoria","Vulnerable",2
-"166",-36.13965496,149.1056612,5009,"Diuris_aequalis","New South Wales","Endangered",3
-"167",-36.13965496,149.1056612,5281,"Pomaderris_pallida","New South Wales","Vulnerable",3
-"168",-36.13965496,149.1056612,5303,"Prasophyllum_petilum","New South Wales","Endangered",3
-"169",-36.0760009,148.4682667,5010,"Diuris_ochroma","New South Wales","Vulnerable",2
-"170",-36.0760009,148.4682667,5011,"Diuris_ochroma","New South Wales","Vulnerable",2
-"171",-35.97157537,139.9875087,4721,"Acacia_enterocarpa","South Australia","Endangered",28
-"172",-35.97157537,139.9875087,4722,"Acacia_enterocarpa","South Australia","Endangered",28
-"173",-35.97157537,139.9875087,4727,"Acacia_enterocarpa","South Australia","Endangered",28
-"174",-35.97157537,139.9875087,4780,"Caladenia_colorata","South Australia","Endangered",28
-"175",-35.97157537,139.9875087,4783,"Caladenia_colorata","South Australia","Endangered",28
-"176",-35.97157537,139.9875087,4790,"Caladenia_colorata","South Australia","Endangered",28
-"177",-35.97157537,139.9875087,4792,"Caladenia_colorata","South Australia","Endangered",28
-"178",-35.97157537,139.9875087,5321,"Prostanthera_eurybioides","South Australia","Endangered",28
-"179",-35.97157537,139.9875087,5322,"Prostanthera_eurybioides","South Australia","Endangered",28
-"180",-35.97157537,139.9875087,5323,"Prostanthera_eurybioides","South Australia","Endangered",28
-"181",-35.97157537,139.9875087,5324,"Prostanthera_eurybioides","South Australia","Endangered",28
-"182",-35.97157537,139.9875087,5325,"Prostanthera_eurybioides","South Australia","Endangered",28
-"183",-35.97157537,139.9875087,5326,"Prostanthera_eurybioides","South Australia","Endangered",28
-"184",-35.97157537,139.9875087,5327,"Prostanthera_eurybioides","South Australia","Endangered",28
-"185",-35.97157537,139.9875087,5328,"Prostanthera_eurybioides","South Australia","Endangered",28
-"186",-35.97157537,139.9875087,5329,"Prostanthera_eurybioides","South Australia","Endangered",28
-"187",-35.97157537,139.9875087,5460,"Senecio_macrocarpus","South Australia","Vulnerable",28
-"188",-35.97157537,139.9875087,5461,"Senecio_macrocarpus","South Australia","Vulnerable",28
-"189",-35.97157537,139.9875087,5462,"Senecio_macrocarpus","South Australia","Vulnerable",28
-"190",-35.97157537,139.9875087,5463,"Senecio_macrocarpus","South Australia","Vulnerable",28
-"191",-35.97157537,139.9875087,5464,"Senecio_macrocarpus","South Australia","Vulnerable",28
-"192",-35.97157537,139.9875087,5465,"Senecio_macrocarpus","South Australia","Vulnerable",28
-"193",-35.97157537,139.9875087,5536,"Thelymitra_epipactoides","South Australia","Endangered",28
-"194",-35.97157537,139.9875087,5538,"Thelymitra_epipactoides","South Australia","Endangered",28
-"195",-35.97157537,139.9875087,5539,"Thelymitra_epipactoides","South Australia","Endangered",28
-"196",-35.97157537,139.9875087,5541,"Thelymitra_epipactoides","South Australia","Endangered",28
-"197",-35.97157537,139.9875087,5546,"Thelymitra_epipactoides","South Australia","Endangered",28
-"198",-35.97157537,139.9875087,5549,"Thelymitra_epipactoides","South Australia","Endangered",28
-"199",-35.95503628,150.2451083,5600,"Zieria_tuberculata","New South Wales","Vulnerable",2
-"200",-35.95503628,150.2451083,5602,"Zieria_tuberculata","New South Wales","Vulnerable",2
-"201",-35.83762242,144.789927,5457,"Senecio_behrianus","Victoria","Endangered",3
-"202",-35.83762242,144.789927,5493,"Swainsona_murrayana","Victoria","Vulnerable",3
-"203",-35.83762242,144.789927,5502,"Swainsona_murrayana","Victoria","Vulnerable",3
-"204",-35.77465865,139.2177927,4784,"Caladenia_colorata","South Australia","Endangered",20
-"205",-35.77465865,139.2177927,4785,"Caladenia_colorata","South Australia","Endangered",20
-"206",-35.77465865,139.2177927,4786,"Caladenia_colorata","South Australia","Endangered",20
-"207",-35.77465865,139.2177927,4787,"Caladenia_colorata","South Australia","Endangered",20
-"208",-35.77465865,139.2177927,4788,"Caladenia_colorata","South Australia","Endangered",20
-"209",-35.77465865,139.2177927,4789,"Caladenia_colorata","South Australia","Endangered",20
-"210",-35.77465865,139.2177927,4791,"Caladenia_colorata","South Australia","Endangered",20
-"211",-35.77465865,139.2177927,4796,"Caladenia_colorata","South Australia","Endangered",20
-"212",-35.77465865,139.2177927,4797,"Caladenia_colorata","South Australia","Endangered",20
-"213",-35.77465865,139.2177927,4798,"Caladenia_colorata","South Australia","Endangered",20
-"214",-35.77465865,139.2177927,4800,"Caladenia_colorata","South Australia","Endangered",20
-"215",-35.77465865,139.2177927,5197,"Olearia_pannosa_subsp_pannosa","South Australia","Vulnerable",20
-"216",-35.77465865,139.2177927,5374,"Pterostylis_arenicola","South Australia","Vulnerable",20
-"217",-35.77465865,139.2177927,5537,"Thelymitra_epipactoides","South Australia","Endangered",20
-"218",-35.77465865,139.2177927,5542,"Thelymitra_epipactoides","South Australia","Endangered",20
-"219",-35.77465865,139.2177927,5543,"Thelymitra_epipactoides","South Australia","Endangered",20
-"220",-35.77465865,139.2177927,5544,"Thelymitra_epipactoides","South Australia","Endangered",20
-"221",-35.77465865,139.2177927,5545,"Thelymitra_epipactoides","South Australia","Endangered",20
-"222",-35.77465865,139.2177927,5548,"Thelymitra_epipactoides","South Australia","Endangered",20
-"223",-35.77465865,139.2177927,5551,"Thelymitra_epipactoides","South Australia","Endangered",20
-"224",-35.64006379,140.609955,4723,"Acacia_enterocarpa","South Australia","Endangered",14
-"225",-35.64006379,140.609955,4724,"Acacia_enterocarpa","South Australia","Endangered",14
-"226",-35.64006379,140.609955,4725,"Acacia_enterocarpa","South Australia","Endangered",14
-"227",-35.64006379,140.609955,4726,"Acacia_enterocarpa","South Australia","Endangered",14
-"228",-35.64006379,140.609955,4850,"Cassinia_tegulata","South Australia","Critically Endangered",14
-"229",-35.64006379,140.609955,4851,"Cassinia_tegulata","South Australia","Critically Endangered",14
-"230",-35.64006379,140.609955,4852,"Cassinia_tegulata","South Australia","Critically Endangered",14
-"231",-35.64006379,140.609955,5261,"Phebalium_lowanense","South Australia","Vulnerable",14
-"232",-35.64006379,140.609955,5262,"Phebalium_lowanense","South Australia","Vulnerable",14
-"233",-35.64006379,140.609955,5263,"Phebalium_lowanense","South Australia","Vulnerable",14
-"234",-35.64006379,140.609955,5264,"Phebalium_lowanense","South Australia","Vulnerable",14
-"235",-35.64006379,140.609955,5265,"Phebalium_lowanense","South Australia","Vulnerable",14
-"236",-35.64006379,140.609955,5266,"Phebalium_lowanense","South Australia","Vulnerable",14
-"237",-35.64006379,140.609955,5267,"Phebalium_lowanense","South Australia","Vulnerable",14
-"238",-35.60727899,141.5734114,5488,"Spyridium_furculentum","Victoria","Endangered",3
-"239",-35.60727899,141.5734114,5489,"Spyridium_furculentum","Victoria","Endangered",3
-"240",-35.60727899,141.5734114,5490,"Spyridium_furculentum","Victoria","Endangered",3
-"241",-35.43876199,148.8460307,4908,"Corunastylis_ectopa","Australian Capital Territory","Critically Endangered",1
-"242",-35.43401712,149.060159,4745,"Caladenia_actensis","Australian Capital Territory","Critically Endangered",10
-"243",-35.43401712,149.060159,5138,"Lepidium_ginninderrense","Australian Capital Territory","Critically Endangered",10
-"244",-35.43401712,149.060159,5139,"Lepidium_ginninderrense","Australian Capital Territory","Critically Endangered",10
-"245",-35.43401712,149.060159,5140,"Lepidium_ginninderrense","Australian Capital Territory","Critically Endangered",10
-"246",-35.43401712,149.060159,5141,"Lepidium_ginninderrense","Australian Capital Territory","Critically Endangered",10
-"247",-35.43401712,149.060159,5156,"Muehlenbeckia_tuggeranong","Australian Capital Territory","Endangered",10
-"248",-35.43401712,149.060159,5298,"Prasophyllum_petilum","Australian Capital Territory","Endangered",10
-"249",-35.43401712,149.060159,5533,"Swainsona_recta","Australian Capital Territory","Endangered",10
-"250",-35.43401712,149.060159,5534,"Swainsona_recta","Australian Capital Territory","Endangered",10
-"251",-35.43401712,149.060159,5535,"Swainsona_recta","Australian Capital Territory","Endangered",10
-"252",-35.33131139,138.668376,4758,"Caladenia_argocalla","South Australia","Endangered",115
-"253",-35.33131139,138.668376,4767,"Caladenia_argocalla","South Australia","Endangered",115
-"254",-35.33131139,138.668376,4768,"Caladenia_argocalla","South Australia","Endangered",115
-"255",-35.33131139,138.668376,4781,"Caladenia_colorata","South Australia","Endangered",115
-"256",-35.33131139,138.668376,4782,"Caladenia_colorata","South Australia","Endangered",115
-"257",-35.33131139,138.668376,4793,"Caladenia_colorata","South Australia","Endangered",115
-"258",-35.33131139,138.668376,4795,"Caladenia_colorata","South Australia","Endangered",115
-"259",-35.33131139,138.668376,4799,"Caladenia_colorata","South Australia","Endangered",115
-"260",-35.33131139,138.668376,4801,"Caladenia_colorata","South Australia","Endangered",115
-"261",-35.33131139,138.668376,4802,"Caladenia_colorata","South Australia","Endangered",115
-"262",-35.33131139,138.668376,4803,"Caladenia_colorata","South Australia","Endangered",115
-"263",-35.33131139,138.668376,4804,"Caladenia_colorata","South Australia","Endangered",115
-"264",-35.33131139,138.668376,4805,"Caladenia_colorata","South Australia","Endangered",115
-"265",-35.33131139,138.668376,4806,"Caladenia_colorata","South Australia","Endangered",115
-"266",-35.33131139,138.668376,4854,"Acacia_menzelii","South Australia","Vulnerable",115
-"267",-35.33131139,138.668376,4855,"Acacia_menzelii","South Australia","Vulnerable",115
-"268",-35.33131139,138.668376,4856,"Acacia_menzelii","South Australia","Vulnerable",115
-"269",-35.33131139,138.668376,4857,"Acacia_menzelii","South Australia","Vulnerable",115
-"270",-35.33131139,138.668376,4858,"Acacia_menzelii","South Australia","Vulnerable",115
-"271",-35.33131139,138.668376,4859,"Acacia_menzelii","South Australia","Vulnerable",115
-"272",-35.33131139,138.668376,4860,"Acacia_menzelii","South Australia","Vulnerable",115
-"273",-35.33131139,138.668376,4861,"Acacia_menzelii","South Australia","Vulnerable",115
-"274",-35.33131139,138.668376,4862,"Acacia_menzelii","South Australia","Vulnerable",115
-"275",-35.33131139,138.668376,4863,"Acacia_menzelii","South Australia","Vulnerable",115
-"276",-35.33131139,138.668376,4864,"Acacia_menzelii","South Australia","Vulnerable",115
-"277",-35.33131139,138.668376,4865,"Acacia_menzelii","South Australia","Vulnerable",115
-"278",-35.33131139,138.668376,4866,"Acacia_menzelii","South Australia","Vulnerable",115
-"279",-35.33131139,138.668376,4867,"Acacia_menzelii","South Australia","Vulnerable",115
-"280",-35.33131139,138.668376,4868,"Acacia_menzelii","South Australia","Vulnerable",115
-"281",-35.33131139,138.668376,4869,"Acacia_menzelii","South Australia","Vulnerable",115
-"282",-35.33131139,138.668376,4870,"Acacia_menzelii","South Australia","Vulnerable",115
-"283",-35.33131139,138.668376,4871,"Acacia_menzelii","South Australia","Vulnerable",115
-"284",-35.33131139,138.668376,4872,"Acacia_menzelii","South Australia","Vulnerable",115
-"285",-35.33131139,138.668376,4873,"Acacia_menzelii","South Australia","Vulnerable",115
-"286",-35.33131139,138.668376,4874,"Acacia_menzelii","South Australia","Vulnerable",115
-"287",-35.33131139,138.668376,4875,"Acacia_menzelii","South Australia","Vulnerable",115
-"288",-35.33131139,138.668376,4876,"Acacia_menzelii","South Australia","Vulnerable",115
-"289",-35.33131139,138.668376,4877,"Acacia_menzelii","South Australia","Vulnerable",115
-"290",-35.33131139,138.668376,4878,"Acacia_menzelii","South Australia","Vulnerable",115
-"291",-35.33131139,138.668376,4879,"Acacia_menzelii","South Australia","Vulnerable",115
-"292",-35.33131139,138.668376,4898,"Acacia_pinguifolia","South Australia","Endangered",115
-"293",-35.33131139,138.668376,4900,"Acacia_pinguifolia","South Australia","Endangered",115
-"294",-35.33131139,138.668376,4903,"Acacia_pinguifolia","South Australia","Endangered",115
-"295",-35.33131139,138.668376,4904,"Acacia_pinguifolia","South Australia","Endangered",115
-"296",-35.33131139,138.668376,4905,"Acacia_pinguifolia","South Australia","Endangered",115
-"297",-35.33131139,138.668376,4906,"Acacia_pinguifolia","South Australia","Endangered",115
-"298",-35.33131139,138.668376,4907,"Acacia_pinguifolia","South Australia","Endangered",115
-"299",-35.33131139,138.668376,4920,"Acacia_rhetinocarpa","South Australia","Vulnerable",115
-"300",-35.33131139,138.668376,4924,"Acacia_rhetinocarpa","South Australia","Vulnerable",115
-"301",-35.33131139,138.668376,4926,"Acacia_rhetinocarpa","South Australia","Vulnerable",115
-"302",-35.33131139,138.668376,4927,"Acacia_rhetinocarpa","South Australia","Vulnerable",115
-"303",-35.33131139,138.668376,4928,"Acacia_rhetinocarpa","South Australia","Vulnerable",115
-"304",-35.33131139,138.668376,4930,"Acacia_rhetinocarpa","South Australia","Vulnerable",115
-"305",-35.33131139,138.668376,4933,"Acacia_rhetinocarpa","South Australia","Vulnerable",115
-"306",-35.33131139,138.668376,4943,"Acacia_rhetinocarpa","South Australia","Vulnerable",115
-"307",-35.33131139,138.668376,4948,"Prasophyllum_murfetii","South Australia","Critically Endangered",115
-"308",-35.33131139,138.668376,4949,"Prasophyllum_murfetii","South Australia","Critically Endangered",115
-"309",-35.33131139,138.668376,4950,"Prasophyllum_murfetii","South Australia","Critically Endangered",115
-"310",-35.33131139,138.668376,4951,"Prasophyllum_murfetii","South Australia","Critically Endangered",115
-"311",-35.33131139,138.668376,4952,"Prasophyllum_murfetii","South Australia","Critically Endangered",115
-"312",-35.33131139,138.668376,5143,"Caladenia_ovata","South Australia","Vulnerable",115
-"313",-35.33131139,138.668376,5144,"Caladenia_ovata","South Australia","Vulnerable",115
-"314",-35.33131139,138.668376,5145,"Caladenia_ovata","South Australia","Vulnerable",115
-"315",-35.33131139,138.668376,5164,"Olearia_pannosa_subsp_pannosa","South Australia","Vulnerable",115
-"316",-35.33131139,138.668376,5165,"Olearia_pannosa_subsp_pannosa","South Australia","Vulnerable",115
-"317",-35.33131139,138.668376,5166,"Olearia_pannosa_subsp_pannosa","South Australia","Vulnerable",115
-"318",-35.33131139,138.668376,5169,"Olearia_pannosa_subsp_pannosa","South Australia","Vulnerable",115
-"319",-35.33131139,138.668376,5170,"Olearia_pannosa_subsp_pannosa","South Australia","Vulnerable",115
-"320",-35.33131139,138.668376,5171,"Olearia_pannosa_subsp_pannosa","South Australia","Vulnerable",115
-"321",-35.33131139,138.668376,5172,"Olearia_pannosa_subsp_pannosa","South Australia","Vulnerable",115
-"322",-35.33131139,138.668376,5173,"Olearia_pannosa_subsp_pannosa","South Australia","Vulnerable",115
-"323",-35.33131139,138.668376,5174,"Olearia_pannosa_subsp_pannosa","South Australia","Vulnerable",115
-"324",-35.33131139,138.668376,5176,"Olearia_pannosa_subsp_pannosa","South Australia","Vulnerable",115
-"325",-35.33131139,138.668376,5177,"Olearia_pannosa_subsp_pannosa","South Australia","Vulnerable",115
-"326",-35.33131139,138.668376,5178,"Olearia_pannosa_subsp_pannosa","South Australia","Vulnerable",115
-"327",-35.33131139,138.668376,5179,"Olearia_pannosa_subsp_pannosa","South Australia","Vulnerable",115
-"328",-35.33131139,138.668376,5180,"Olearia_pannosa_subsp_pannosa","South Australia","Vulnerable",115
-"329",-35.33131139,138.668376,5181,"Olearia_pannosa_subsp_pannosa","South Australia","Vulnerable",115
-"330",-35.33131139,138.668376,5182,"Olearia_pannosa_subsp_pannosa","South Australia","Vulnerable",115
-"331",-35.33131139,138.668376,5183,"Olearia_pannosa_subsp_pannosa","South Australia","Vulnerable",115
-"332",-35.33131139,138.668376,5184,"Olearia_pannosa_subsp_pannosa","South Australia","Vulnerable",115
-"333",-35.33131139,138.668376,5185,"Olearia_pannosa_subsp_pannosa","South Australia","Vulnerable",115
-"334",-35.33131139,138.668376,5186,"Olearia_pannosa_subsp_pannosa","South Australia","Vulnerable",115
-"335",-35.33131139,138.668376,5187,"Olearia_pannosa_subsp_pannosa","South Australia","Vulnerable",115
-"336",-35.33131139,138.668376,5188,"Olearia_pannosa_subsp_pannosa","South Australia","Vulnerable",115
-"337",-35.33131139,138.668376,5193,"Olearia_pannosa_subsp_pannosa","South Australia","Vulnerable",115
-"338",-35.33131139,138.668376,5194,"Olearia_pannosa_subsp_pannosa","South Australia","Vulnerable",115
-"339",-35.33131139,138.668376,5195,"Olearia_pannosa_subsp_pannosa","South Australia","Vulnerable",115
-"340",-35.33131139,138.668376,5196,"Olearia_pannosa_subsp_pannosa","South Australia","Vulnerable",115
-"341",-35.33131139,138.668376,5198,"Olearia_pannosa_subsp_pannosa","South Australia","Vulnerable",115
-"342",-35.33131139,138.668376,5199,"Olearia_pannosa_subsp_pannosa","South Australia","Vulnerable",115
-"343",-35.33131139,138.668376,5200,"Olearia_pannosa_subsp_pannosa","South Australia","Vulnerable",115
-"344",-35.33131139,138.668376,5201,"Olearia_pannosa_subsp_pannosa","South Australia","Vulnerable",115
-"345",-35.33131139,138.668376,5202,"Olearia_pannosa_subsp_pannosa","South Australia","Vulnerable",115
-"346",-35.33131139,138.668376,5203,"Olearia_pannosa_subsp_pannosa","South Australia","Vulnerable",115
-"347",-35.33131139,138.668376,5204,"Olearia_pannosa_subsp_pannosa","South Australia","Vulnerable",115
-"348",-35.33131139,138.668376,5205,"Olearia_pannosa_subsp_pannosa","South Australia","Vulnerable",115
-"349",-35.33131139,138.668376,5206,"Olearia_pannosa_subsp_pannosa","South Australia","Vulnerable",115
-"350",-35.33131139,138.668376,5207,"Olearia_pannosa_subsp_pannosa","South Australia","Vulnerable",115
-"351",-35.33131139,138.668376,5208,"Olearia_pannosa_subsp_pannosa","South Australia","Vulnerable",115
-"352",-35.33131139,138.668376,5209,"Olearia_pannosa_subsp_pannosa","South Australia","Vulnerable",115
-"353",-35.33131139,138.668376,5210,"Olearia_pannosa_subsp_pannosa","South Australia","Vulnerable",115
-"354",-35.33131139,138.668376,5212,"Olearia_pannosa_subsp_pannosa","South Australia","Vulnerable",115
-"355",-35.33131139,138.668376,5215,"Olearia_pannosa_subsp_pannosa","South Australia","Vulnerable",115
-"356",-35.33131139,138.668376,5310,"Prostanthera_eurybioides","South Australia","Endangered",115
-"357",-35.33131139,138.668376,5311,"Prostanthera_eurybioides","South Australia","Endangered",115
-"358",-35.33131139,138.668376,5312,"Prostanthera_eurybioides","South Australia","Endangered",115
-"359",-35.33131139,138.668376,5313,"Prostanthera_eurybioides","South Australia","Endangered",115
-"360",-35.33131139,138.668376,5314,"Prostanthera_eurybioides","South Australia","Endangered",115
-"361",-35.33131139,138.668376,5315,"Prostanthera_eurybioides","South Australia","Endangered",115
-"362",-35.33131139,138.668376,5316,"Prostanthera_eurybioides","South Australia","Endangered",115
-"363",-35.33131139,138.668376,5317,"Prostanthera_eurybioides","South Australia","Endangered",115
-"364",-35.33131139,138.668376,5318,"Prostanthera_eurybioides","South Australia","Endangered",115
-"365",-35.33131139,138.668376,5319,"Prostanthera_eurybioides","South Australia","Endangered",115
-"366",-35.33131139,138.668376,5320,"Prostanthera_eurybioides","South Australia","Endangered",115
-"367",-35.26523623,150.6600222,4720,"Banksia_vincentia","New South Wales","Critically Endangered",5
-"368",-35.26523623,150.6600222,5290,"Prasophyllum_affine","New South Wales","Endangered",5
-"369",-35.26523623,150.6600222,5607,"Pterostylis_vernalis","New South Wales","Critically Endangered",5
-"370",-35.26523623,150.6600222,5610,"Pterostylis_vernalis","New South Wales","Critically Endangered",5
-"371",-35.26523623,150.6600222,5628,"Calochilus_pulchellus","New South Wales","Endangered",5
-"372",-35.18624638,142.3331151,5494,"Swainsona_murrayana","Victoria","Vulnerable",1
-"373",-34.98189202,150.298742,4834,"Caladenia_tessellata","New South Wales","Vulnerable",4
-"374",-34.98189202,150.298742,5608,"Pterostylis_vernalis","New South Wales","Critically Endangered",4
-"375",-34.98189202,150.298742,5609,"Pterostylis_vernalis","New South Wales","Critically Endangered",4
-"376",-34.98189202,150.298742,5627,"Calochilus_pulchellus","New South Wales","Endangered",4
-"377",-34.95748829,137.4743807,4814,"Caladenia_intuta","South Australia","Critically Endangered",11
-"378",-34.95748829,137.4743807,4815,"Caladenia_intuta","South Australia","Critically Endangered",11
-"379",-34.95748829,137.4743807,4816,"Caladenia_intuta","South Australia","Critically Endangered",11
-"380",-34.95748829,137.4743807,4817,"Caladenia_intuta","South Australia","Critically Endangered",11
-"381",-34.95748829,137.4743807,4818,"Caladenia_intuta","South Australia","Critically Endangered",11
-"382",-34.95748829,137.4743807,4819,"Caladenia_intuta","South Australia","Critically Endangered",11
-"383",-34.95748829,137.4743807,4820,"Caladenia_intuta","South Australia","Critically Endangered",11
-"384",-34.95748829,137.4743807,4821,"Caladenia_intuta","South Australia","Critically Endangered",11
-"385",-34.95748829,137.4743807,4822,"Caladenia_macroclavia","South Australia","Endangered",11
-"386",-34.95748829,137.4743807,4823,"Caladenia_macroclavia","South Australia","Endangered",11
-"387",-34.95748829,137.4743807,4824,"Caladenia_macroclavia","South Australia","Endangered",11
-"388",-34.88766404,138.7623028,4757,"Caladenia_argocalla","South Australia","Endangered",123
-"389",-34.88766404,138.7623028,4759,"Caladenia_argocalla","South Australia","Endangered",123
-"390",-34.88766404,138.7623028,4760,"Caladenia_argocalla","South Australia","Endangered",123
-"391",-34.88766404,138.7623028,4761,"Caladenia_argocalla","South Australia","Endangered",123
-"392",-34.88766404,138.7623028,4762,"Caladenia_argocalla","South Australia","Endangered",123
-"393",-34.88766404,138.7623028,4763,"Caladenia_argocalla","South Australia","Endangered",123
-"394",-34.88766404,138.7623028,4764,"Caladenia_argocalla","South Australia","Endangered",123
-"395",-34.88766404,138.7623028,4765,"Caladenia_argocalla","South Australia","Endangered",123
-"396",-34.88766404,138.7623028,4766,"Caladenia_argocalla","South Australia","Endangered",123
-"397",-34.88766404,138.7623028,4769,"Caladenia_behrii","South Australia","Endangered",123
-"398",-34.88766404,138.7623028,4770,"Caladenia_behrii","South Australia","Endangered",123
-"399",-34.88766404,138.7623028,4771,"Caladenia_behrii","South Australia","Endangered",123
-"400",-34.88766404,138.7623028,4772,"Caladenia_behrii","South Australia","Endangered",123
-"401",-34.88766404,138.7623028,4773,"Caladenia_behrii","South Australia","Endangered",123
-"402",-34.88766404,138.7623028,4774,"Caladenia_behrii","South Australia","Endangered",123
-"403",-34.88766404,138.7623028,4775,"Caladenia_behrii","South Australia","Endangered",123
-"404",-34.88766404,138.7623028,4776,"Caladenia_behrii","South Australia","Endangered",123
-"405",-34.88766404,138.7623028,4777,"Caladenia_behrii","South Australia","Endangered",123
-"406",-34.88766404,138.7623028,4778,"Caladenia_behrii","South Australia","Endangered",123
-"407",-34.88766404,138.7623028,4825,"Caladenia_rigida","South Australia","Endangered",123
-"408",-34.88766404,138.7623028,4826,"Caladenia_rigida","South Australia","Endangered",123
-"409",-34.88766404,138.7623028,4827,"Caladenia_rigida","South Australia","Endangered",123
-"410",-34.88766404,138.7623028,4828,"Caladenia_rigida","South Australia","Endangered",123
-"411",-34.88766404,138.7623028,4829,"Caladenia_rigida","South Australia","Endangered",123
-"412",-34.88766404,138.7623028,4830,"Caladenia_rigida","South Australia","Endangered",123
-"413",-34.88766404,138.7623028,4831,"Caladenia_rigida","South Australia","Endangered",123
-"414",-34.88766404,138.7623028,4832,"Caladenia_rigida","South Australia","Endangered",123
-"415",-34.88766404,138.7623028,4953,"Prasophyllum_pruinosum","South Australia","Endangered",123
-"416",-34.88766404,138.7623028,4954,"Prasophyllum_pruinosum","South Australia","Endangered",123
-"417",-34.88766404,138.7623028,4955,"Prasophyllum_pruinosum","South Australia","Endangered",123
-"418",-34.88766404,138.7623028,4956,"Prasophyllum_pruinosum","South Australia","Endangered",123
-"419",-34.88766404,138.7623028,4957,"Prasophyllum_pruinosum","South Australia","Endangered",123
-"420",-34.88766404,138.7623028,4958,"Prasophyllum_pruinosum","South Australia","Endangered",123
-"421",-34.88766404,138.7623028,4959,"Prasophyllum_pruinosum","South Australia","Endangered",123
-"422",-34.88766404,138.7623028,4960,"Prasophyllum_pruinosum","South Australia","Endangered",123
-"423",-34.88766404,138.7623028,4961,"Prasophyllum_pruinosum","South Australia","Endangered",123
-"424",-34.88766404,138.7623028,4962,"Prasophyllum_pruinosum","South Australia","Endangered",123
-"425",-34.88766404,138.7623028,4963,"Prasophyllum_pruinosum","South Australia","Endangered",123
-"426",-34.88766404,138.7623028,4964,"Prasophyllum_pruinosum","South Australia","Endangered",123
-"427",-34.88766404,138.7623028,4965,"Prasophyllum_pruinosum","South Australia","Endangered",123
-"428",-34.88766404,138.7623028,4966,"Prasophyllum_pruinosum","South Australia","Endangered",123
-"429",-34.88766404,138.7623028,4967,"Prasophyllum_pruinosum","South Australia","Endangered",123
-"430",-34.88766404,138.7623028,4968,"Prasophyllum_pruinosum","South Australia","Endangered",123
-"431",-34.88766404,138.7623028,4969,"Prasophyllum_pruinosum","South Australia","Endangered",123
-"432",-34.88766404,138.7623028,4970,"Prasophyllum_pruinosum","South Australia","Endangered",123
-"433",-34.88766404,138.7623028,4971,"Prasophyllum_pruinosum","South Australia","Endangered",123
-"434",-34.88766404,138.7623028,4972,"Prasophyllum_pruinosum","South Australia","Endangered",123
-"435",-34.88766404,138.7623028,4973,"Prasophyllum_pruinosum","South Australia","Endangered",123
-"436",-34.88766404,138.7623028,4974,"Prasophyllum_pruinosum","South Australia","Endangered",123
-"437",-34.88766404,138.7623028,4975,"Prasophyllum_pruinosum","South Australia","Endangered",123
-"438",-34.88766404,138.7623028,4976,"Prasophyllum_pruinosum","South Australia","Endangered",123
-"439",-34.88766404,138.7623028,4977,"Prasophyllum_pruinosum","South Australia","Endangered",123
-"440",-34.88766404,138.7623028,4978,"Prasophyllum_pruinosum","South Australia","Endangered",123
-"441",-34.88766404,138.7623028,4979,"Prasophyllum_pruinosum","South Australia","Endangered",123
-"442",-34.88766404,138.7623028,4980,"Prasophyllum_pruinosum","South Australia","Endangered",123
-"443",-34.88766404,138.7623028,4981,"Prasophyllum_pruinosum","South Australia","Endangered",123
-"444",-34.88766404,138.7623028,4982,"Prasophyllum_pruinosum","South Australia","Endangered",123
-"445",-34.88766404,138.7623028,4983,"Prasophyllum_pruinosum","South Australia","Endangered",123
-"446",-34.88766404,138.7623028,4984,"Prasophyllum_pruinosum","South Australia","Endangered",123
-"447",-34.88766404,138.7623028,4985,"Pterostylis_psammophila","South Australia","Critically Endangered",123
-"448",-34.88766404,138.7623028,4986,"Pterostylis_psammophila","South Australia","Critically Endangered",123
-"449",-34.88766404,138.7623028,4987,"Pterostylis_psammophila","South Australia","Critically Endangered",123
-"450",-34.88766404,138.7623028,4988,"Pterostylis_psammophila","South Australia","Critically Endangered",123
-"451",-34.88766404,138.7623028,4989,"Pterostylis_psammophila","South Australia","Critically Endangered",123
-"452",-34.88766404,138.7623028,4990,"Pterostylis_psammophila","South Australia","Critically Endangered",123
-"453",-34.88766404,138.7623028,4991,"Pterostylis_psammophila","South Australia","Critically Endangered",123
-"454",-34.88766404,138.7623028,4992,"Pterostylis_psammophila","South Australia","Critically Endangered",123
-"455",-34.88766404,138.7623028,4993,"Pterostylis_psammophila","South Australia","Critically Endangered",123
-"456",-34.88766404,138.7623028,4994,"Pterostylis_psammophila","South Australia","Critically Endangered",123
-"457",-34.88766404,138.7623028,4995,"Pterostylis_psammophila","South Australia","Critically Endangered",123
-"458",-34.88766404,138.7623028,4996,"Pterostylis_psammophila","South Australia","Critically Endangered",123
-"459",-34.88766404,138.7623028,4997,"Pterostylis_psammophila","South Australia","Critically Endangered",123
-"460",-34.88766404,138.7623028,4998,"Pterostylis_psammophila","South Australia","Critically Endangered",123
-"461",-34.88766404,138.7623028,4999,"Pterostylis_psammophila","South Australia","Critically Endangered",123
-"462",-34.88766404,138.7623028,5000,"Pterostylis_psammophila","South Australia","Critically Endangered",123
-"463",-34.88766404,138.7623028,5001,"Pterostylis_psammophila","South Australia","Critically Endangered",123
-"464",-34.88766404,138.7623028,5025,"Acanthocladium_dockeri","South Australia","Critically Endangered",123
-"465",-34.88766404,138.7623028,5159,"Calochilus_cupreus","South Australia","Critically Endangered",123
-"466",-34.88766404,138.7623028,5384,"Pterostylis_cucullata","South Australia","Vulnerable",123
-"467",-34.88766404,138.7623028,5385,"Pterostylis_cucullata","South Australia","Vulnerable",123
-"468",-34.88766404,138.7623028,5386,"Pterostylis_cucullata","South Australia","Vulnerable",123
-"469",-34.88766404,138.7623028,5387,"Pterostylis_cucullata","South Australia","Vulnerable",123
-"470",-34.88766404,138.7623028,5388,"Pterostylis_cucullata","South Australia","Vulnerable",123
-"471",-34.88766404,138.7623028,5389,"Pterostylis_cucullata","South Australia","Vulnerable",123
-"472",-34.88766404,138.7623028,5390,"Pterostylis_cucullata","South Australia","Vulnerable",123
-"473",-34.88766404,138.7623028,5391,"Pterostylis_cucullata","South Australia","Vulnerable",123
-"474",-34.88766404,138.7623028,5392,"Pterostylis_cucullata","South Australia","Vulnerable",123
-"475",-34.88766404,138.7623028,5393,"Pterostylis_cucullata","South Australia","Vulnerable",123
-"476",-34.88766404,138.7623028,5394,"Pterostylis_cucullata","South Australia","Vulnerable",123
-"477",-34.88766404,138.7623028,5395,"Pterostylis_cucullata","South Australia","Vulnerable",123
-"478",-34.88766404,138.7623028,5396,"Pterostylis_cucullata","South Australia","Vulnerable",123
-"479",-34.88766404,138.7623028,5397,"Pterostylis_cucullata","South Australia","Vulnerable",123
-"480",-34.88766404,138.7623028,5398,"Pterostylis_cucullata","South Australia","Vulnerable",123
-"481",-34.88766404,138.7623028,5399,"Pterostylis_cucullata","South Australia","Vulnerable",123
-"482",-34.88766404,138.7623028,5400,"Pterostylis_cucullata","South Australia","Vulnerable",123
-"483",-34.88766404,138.7623028,5401,"Pterostylis_cucullata","South Australia","Vulnerable",123
-"484",-34.88766404,138.7623028,5402,"Pterostylis_cucullata","South Australia","Vulnerable",123
-"485",-34.88766404,138.7623028,5403,"Pterostylis_cucullata","South Australia","Vulnerable",123
-"486",-34.88766404,138.7623028,5404,"Pterostylis_cucullata","South Australia","Vulnerable",123
-"487",-34.88766404,138.7623028,5405,"Pterostylis_cucullata","South Australia","Vulnerable",123
-"488",-34.88766404,138.7623028,5406,"Pterostylis_cucullata","South Australia","Vulnerable",123
-"489",-34.88766404,138.7623028,5407,"Pterostylis_cucullata","South Australia","Vulnerable",123
-"490",-34.88766404,138.7623028,5408,"Pterostylis_cucullata","South Australia","Vulnerable",123
-"491",-34.88766404,138.7623028,5409,"Pterostylis_cucullata","South Australia","Vulnerable",123
-"492",-34.88766404,138.7623028,5410,"Pterostylis_cucullata","South Australia","Vulnerable",123
-"493",-34.88766404,138.7623028,5411,"Pterostylis_cucullata","South Australia","Vulnerable",123
-"494",-34.88766404,138.7623028,5412,"Pterostylis_cucullata","South Australia","Vulnerable",123
-"495",-34.88766404,138.7623028,5413,"Pterostylis_cucullata","South Australia","Vulnerable",123
-"496",-34.88766404,138.7623028,5414,"Pterostylis_cucullata","South Australia","Vulnerable",123
-"497",-34.88766404,138.7623028,5415,"Pterostylis_cucullata","South Australia","Vulnerable",123
-"498",-34.88766404,138.7623028,5416,"Pterostylis_cucullata","South Australia","Vulnerable",123
-"499",-34.88766404,138.7623028,5417,"Pterostylis_cucullata","South Australia","Vulnerable",123
-"500",-34.88766404,138.7623028,5418,"Pterostylis_cucullata","South Australia","Vulnerable",123
-"501",-34.88766404,138.7623028,5419,"Pterostylis_cucullata","South Australia","Vulnerable",123
-"502",-34.88766404,138.7623028,5420,"Pterostylis_cucullata","South Australia","Vulnerable",123
-"503",-34.88766404,138.7623028,5421,"Pterostylis_cucullata","South Australia","Vulnerable",123
-"504",-34.88766404,138.7623028,5422,"Pterostylis_cucullata","South Australia","Vulnerable",123
-"505",-34.88766404,138.7623028,5423,"Pterostylis_cucullata","South Australia","Vulnerable",123
-"506",-34.88766404,138.7623028,5424,"Pterostylis_cucullata","South Australia","Vulnerable",123
-"507",-34.88766404,138.7623028,5425,"Pterostylis_cucullata","South Australia","Vulnerable",123
-"508",-34.88766404,138.7623028,5426,"Pterostylis_cucullata","South Australia","Vulnerable",123
-"509",-34.88766404,138.7623028,5427,"Pterostylis_cucullata","South Australia","Vulnerable",123
-"510",-34.88766404,138.7623028,5428,"Pterostylis_cucullata","South Australia","Vulnerable",123
-"511",-34.87182416,149.9592602,4833,"Caladenia_tessellata","New South Wales","Vulnerable",11
-"512",-34.87182416,149.9592602,5036,"Eucalyptus_recurva","New South Wales","Critically Endangered",11
-"513",-34.87182416,149.9592602,5037,"Eucalyptus_recurva","New South Wales","Critically Endangered",11
-"514",-34.87182416,149.9592602,5038,"Eucalyptus_recurva","New South Wales","Critically Endangered",11
-"515",-34.87182416,149.9592602,5039,"Eucalyptus_recurva","New South Wales","Critically Endangered",11
-"516",-34.87182416,149.9592602,5269,"Pomaderris_cotoneaster","New South Wales","Endangered",11
-"517",-34.87182416,149.9592602,5270,"Pomaderris_cotoneaster","New South Wales","Endangered",11
-"518",-34.87182416,149.9592602,5271,"Pomaderris_cotoneaster","New South Wales","Endangered",11
-"519",-34.87182416,149.9592602,5272,"Pomaderris_cotoneaster","New South Wales","Endangered",11
-"520",-34.87182416,149.9592602,5279,"Pomaderris_delicata","New South Wales","Critically Endangered",11
-"521",-34.87182416,149.9592602,5280,"Pomaderris_delicata","New South Wales","Critically Endangered",11
-"522",-34.75516376,139.9321759,4794,"Caladenia_colorata","South Australia","Endangered",49
-"523",-34.75516376,139.9321759,4880,"Acacia_menzelii","South Australia","Vulnerable",49
-"524",-34.75516376,139.9321759,4881,"Acacia_menzelii","South Australia","Vulnerable",49
-"525",-34.75516376,139.9321759,4890,"Acacia_pinguifolia","South Australia","Endangered",49
-"526",-34.75516376,139.9321759,4891,"Acacia_pinguifolia","South Australia","Endangered",49
-"527",-34.75516376,139.9321759,4892,"Acacia_pinguifolia","South Australia","Endangered",49
-"528",-34.75516376,139.9321759,4893,"Acacia_pinguifolia","South Australia","Endangered",49
-"529",-34.75516376,139.9321759,4894,"Acacia_pinguifolia","South Australia","Endangered",49
-"530",-34.75516376,139.9321759,4895,"Acacia_pinguifolia","South Australia","Endangered",49
-"531",-34.75516376,139.9321759,4896,"Acacia_pinguifolia","South Australia","Endangered",49
-"532",-34.75516376,139.9321759,4897,"Acacia_pinguifolia","South Australia","Endangered",49
-"533",-34.75516376,139.9321759,4899,"Acacia_pinguifolia","South Australia","Endangered",49
-"534",-34.75516376,139.9321759,4901,"Acacia_pinguifolia","South Australia","Endangered",49
-"535",-34.75516376,139.9321759,4902,"Acacia_pinguifolia","South Australia","Endangered",49
-"536",-34.75516376,139.9321759,4918,"Acacia_rhetinocarpa","South Australia","Vulnerable",49
-"537",-34.75516376,139.9321759,4919,"Acacia_rhetinocarpa","South Australia","Vulnerable",49
-"538",-34.75516376,139.9321759,4921,"Acacia_rhetinocarpa","South Australia","Vulnerable",49
-"539",-34.75516376,139.9321759,4922,"Acacia_rhetinocarpa","South Australia","Vulnerable",49
-"540",-34.75516376,139.9321759,4923,"Acacia_rhetinocarpa","South Australia","Vulnerable",49
-"541",-34.75516376,139.9321759,4925,"Acacia_rhetinocarpa","South Australia","Vulnerable",49
-"542",-34.75516376,139.9321759,4929,"Acacia_rhetinocarpa","South Australia","Vulnerable",49
-"543",-34.75516376,139.9321759,4931,"Acacia_rhetinocarpa","South Australia","Vulnerable",49
-"544",-34.75516376,139.9321759,4932,"Acacia_rhetinocarpa","South Australia","Vulnerable",49
-"545",-34.75516376,139.9321759,4934,"Acacia_rhetinocarpa","South Australia","Vulnerable",49
-"546",-34.75516376,139.9321759,4935,"Acacia_rhetinocarpa","South Australia","Vulnerable",49
-"547",-34.75516376,139.9321759,4936,"Acacia_rhetinocarpa","South Australia","Vulnerable",49
-"548",-34.75516376,139.9321759,4937,"Acacia_rhetinocarpa","South Australia","Vulnerable",49
-"549",-34.75516376,139.9321759,4938,"Acacia_rhetinocarpa","South Australia","Vulnerable",49
-"550",-34.75516376,139.9321759,4939,"Acacia_rhetinocarpa","South Australia","Vulnerable",49
-"551",-34.75516376,139.9321759,4940,"Acacia_rhetinocarpa","South Australia","Vulnerable",49
-"552",-34.75516376,139.9321759,4941,"Acacia_rhetinocarpa","South Australia","Vulnerable",49
-"553",-34.75516376,139.9321759,4942,"Acacia_rhetinocarpa","South Australia","Vulnerable",49
-"554",-34.75516376,139.9321759,4944,"Acacia_rhetinocarpa","South Australia","Vulnerable",49
-"555",-34.75516376,139.9321759,4945,"Acacia_rhetinocarpa","South Australia","Vulnerable",49
-"556",-34.75516376,139.9321759,4946,"Acacia_rhetinocarpa","South Australia","Vulnerable",49
-"557",-34.75516376,139.9321759,4947,"Acacia_rhetinocarpa","South Australia","Vulnerable",49
-"558",-34.75516376,139.9321759,5167,"Olearia_pannosa_subsp_pannosa","South Australia","Vulnerable",49
-"559",-34.75516376,139.9321759,5168,"Olearia_pannosa_subsp_pannosa","South Australia","Vulnerable",49
-"560",-34.75516376,139.9321759,5175,"Olearia_pannosa_subsp_pannosa","South Australia","Vulnerable",49
-"561",-34.75516376,139.9321759,5189,"Olearia_pannosa_subsp_pannosa","South Australia","Vulnerable",49
-"562",-34.75516376,139.9321759,5190,"Olearia_pannosa_subsp_pannosa","South Australia","Vulnerable",49
-"563",-34.75516376,139.9321759,5191,"Olearia_pannosa_subsp_pannosa","South Australia","Vulnerable",49
-"564",-34.75516376,139.9321759,5192,"Olearia_pannosa_subsp_pannosa","South Australia","Vulnerable",49
-"565",-34.75516376,139.9321759,5211,"Olearia_pannosa_subsp_pannosa","South Australia","Vulnerable",49
-"566",-34.75516376,139.9321759,5213,"Olearia_pannosa_subsp_pannosa","South Australia","Vulnerable",49
-"567",-34.75516376,139.9321759,5214,"Olearia_pannosa_subsp_pannosa","South Australia","Vulnerable",49
-"568",-34.75516376,139.9321759,5540,"Thelymitra_epipactoides","South Australia","Endangered",49
-"569",-34.75516376,139.9321759,5547,"Thelymitra_epipactoides","South Australia","Endangered",49
-"570",-34.75516376,139.9321759,5550,"Thelymitra_epipactoides","South Australia","Endangered",49
-"571",-34.69551507,116.1574097,5114,"Isopogon_uncinatus","Western Australia","Critically Endangered",2
-"572",-34.69551507,116.1574097,5116,"Isopogon_uncinatus","Western Australia","Critically Endangered",2
-"573",-34.66180604,150.8782982,5442,"Pterostylis_gibbosa","New South Wales","Endangered",4
-"574",-34.66180604,150.8782982,5443,"Pterostylis_gibbosa","New South Wales","Endangered",4
-"575",-34.66180604,150.8782982,5444,"Pterostylis_gibbosa","New South Wales","Endangered",4
-"576",-34.66180604,150.8782982,5618,"Genoplesium_baueri","New South Wales","Endangered",4
-"577",-34.23074081,119.1504387,4718,"Banksia_ionthocarpa_subsp_ionthocarpa","Western Australia","Endangered",17
-"578",-34.23074081,119.1504387,4719,"Banksia_montana","Western Australia","Critically Endangered",17
-"579",-34.23074081,119.1504387,5002,"Darwinia_wittwerorum","Western Australia","Endangered",17
-"580",-34.23074081,119.1504387,5003,"Daviesia_glossosema","Western Australia","Critically Endangered",17
-"581",-34.23074081,119.1504387,5005,"Daviesia_pseudaphylla","Western Australia","Critically Endangered",17
-"582",-34.23074081,119.1504387,5041,"Adenanthos_ellipticus","Western Australia","Endangered",17
-"583",-34.23074081,119.1504387,5093,"Grevillea_maxwellii","Western Australia","Critically Endangered",17
-"584",-34.23074081,119.1504387,5094,"Grevillea_maxwellii","Western Australia","Critically Endangered",17
-"585",-34.23074081,119.1504387,5117,"Kunzea_similis_subsp_similis","Western Australia","Critically Endangered",17
-"586",-34.23074081,119.1504387,5142,"Leucopogon_gnaphalioides","Western Australia","Critically Endangered",17
-"587",-34.23074081,119.1504387,5155,"Andersonia_axilliflora","Western Australia","Critically Endangered",17
-"588",-34.23074081,119.1504387,5255,"Persoonia_micranthera","Western Australia","Critically Endangered",17
-"589",-34.23074081,119.1504387,5256,"Persoonia_micranthera","Western Australia","Critically Endangered",17
-"590",-34.23074081,119.1504387,5559,"Verticordia_pityrhops","Western Australia","Endangered",17
-"591",-34.23074081,119.1504387,5646,"Banksia_anatona","Western Australia","Critically Endangered",17
-"592",-34.23074081,119.1504387,5647,"Banksia_anatona","Western Australia","Critically Endangered",17
-"593",-34.23074081,119.1504387,5650,"Banksia_brownii","Western Australia","Critically Endangered",17
-"594",-34.22528357,150.3223691,5273,"Pomaderris_cotoneaster","New South Wales","Endangered",6
-"595",-34.22528357,150.3223691,5274,"Pomaderris_cotoneaster","New South Wales","Endangered",6
-"596",-34.22528357,150.3223691,5275,"Pomaderris_cotoneaster","New South Wales","Endangered",6
-"597",-34.22528357,150.3223691,5276,"Pomaderris_cotoneaster","New South Wales","Endangered",6
-"598",-34.22528357,150.3223691,5277,"Pomaderris_cotoneaster","New South Wales","Endangered",6
-"599",-34.22528357,150.3223691,5278,"Pomaderris_cotoneaster","New South Wales","Endangered",6
-"600",-34.22470711,151.0051801,5598,"Astrotricha_crassifolia","New South Wales","Vulnerable",1
-"601",-34.15050767,116.6498318,5049,"Grevillea_acropogon","Western Australia","Endangered",8
-"602",-34.15050767,116.6498318,5050,"Grevillea_acropogon","Western Australia","Endangered",8
-"603",-34.15050767,116.6498318,5115,"Isopogon_uncinatus","Western Australia","Critically Endangered",8
-"604",-34.15050767,116.6498318,5118,"Lambertia_orbifolia_subsp_orbifolia","Western Australia","Endangered",8
-"605",-34.15050767,116.6498318,5119,"Lambertia_orbifolia_subsp_orbifolia","Western Australia","Endangered",8
-"606",-34.15050767,116.6498318,5158,"Andersonia_pinaster","Western Australia","Vulnerable",8
-"607",-34.15050767,116.6498318,5648,"Banksia_brownii","Western Australia","Critically Endangered",8
-"608",-34.15050767,116.6498318,5649,"Banksia_brownii","Western Australia","Critically Endangered",8
-"609",-34.1382346,148.3763939,4737,"Bossiaea_fragrans","New South Wales","Critically Endangered",16
-"610",-34.1382346,148.3763939,4738,"Bossiaea_fragrans","New South Wales","Critically Endangered",16
-"611",-34.1382346,148.3763939,4739,"Bossiaea_fragrans","New South Wales","Critically Endangered",16
-"612",-34.1382346,148.3763939,4740,"Bossiaea_fragrans","New South Wales","Critically Endangered",16
-"613",-34.1382346,148.3763939,4741,"Bossiaea_fragrans","New South Wales","Critically Endangered",16
-"614",-34.1382346,148.3763939,4742,"Bossiaea_fragrans","New South Wales","Critically Endangered",16
-"615",-34.1382346,148.3763939,4743,"Bossiaea_fragrans","New South Wales","Critically Endangered",16
-"616",-34.1382346,148.3763939,5109,"Grevillea_wilkinsonii","New South Wales","Critically Endangered",16
-"617",-34.1382346,148.3763939,5299,"Prasophyllum_petilum","New South Wales","Endangered",16
-"618",-34.1382346,148.3763939,5300,"Prasophyllum_petilum","New South Wales","Endangered",16
-"619",-34.1382346,148.3763939,5301,"Prasophyllum_petilum","New South Wales","Endangered",16
-"620",-34.1382346,148.3763939,5302,"Prasophyllum_petilum","New South Wales","Endangered",16
-"621",-34.1382346,148.3763939,5588,"Zieria_obcordata","New South Wales","Endangered",16
-"622",-34.1382346,148.3763939,5595,"Zieria_obcordata","New South Wales","Endangered",16
-"623",-34.1382346,148.3763939,5596,"Zieria_obcordata","New South Wales","Endangered",16
-"624",-34.1382346,148.3763939,5597,"Zieria_obcordata","New South Wales","Endangered",16
-"625",-34.0400509,150.0838695,5007,"Diuris_aequalis","New South Wales","Endangered",2
-"626",-34.0400509,150.0838695,5008,"Diuris_aequalis","New South Wales","Endangered",2
-"627",-33.91392283,137.9381525,5026,"Acanthocladium_dockeri","South Australia","Critically Endangered",12
-"628",-33.91392283,137.9381525,5027,"Acanthocladium_dockeri","South Australia","Critically Endangered",12
-"629",-33.91392283,137.9381525,5375,"Pterostylis_arenicola","South Australia","Vulnerable",12
-"630",-33.91392283,137.9381525,5376,"Pterostylis_arenicola","South Australia","Vulnerable",12
-"631",-33.91392283,137.9381525,5377,"Pterostylis_arenicola","South Australia","Vulnerable",12
-"632",-33.91392283,137.9381525,5378,"Pterostylis_arenicola","South Australia","Vulnerable",12
-"633",-33.91392283,137.9381525,5379,"Pterostylis_arenicola","South Australia","Vulnerable",12
-"634",-33.91392283,137.9381525,5380,"Pterostylis_arenicola","South Australia","Vulnerable",12
-"635",-33.91392283,137.9381525,5381,"Pterostylis_arenicola","South Australia","Vulnerable",12
-"636",-33.91392283,137.9381525,5382,"Pterostylis_arenicola","South Australia","Vulnerable",12
-"637",-33.91392283,137.9381525,5623,"Pterostylis_lepida","South Australia","Endangered",12
-"638",-33.91392283,137.9381525,5624,"Pterostylis_lepida","South Australia","Endangered",12
-"639",-33.79845532,134.7934883,5268,"Angianthus_phyllocalymmeus","South Australia","Vulnerable",1
-"640",-33.68682216,151.3158186,5152,"Micromyrtus_blakelyi","New South Wales","Vulnerable",42
-"641",-33.68682216,151.3158186,5153,"Micromyrtus_blakelyi","New South Wales","Vulnerable",42
-"642",-33.68682216,151.3158186,5154,"Micromyrtus_blakelyi","New South Wales","Vulnerable",42
-"643",-33.68682216,151.3158186,5333,"Prostanthera_junonis","New South Wales","Endangered",42
-"644",-33.68682216,151.3158186,5334,"Prostanthera_junonis","New South Wales","Endangered",42
-"645",-33.68682216,151.3158186,5335,"Prostanthera_junonis","New South Wales","Endangered",42
-"646",-33.68682216,151.3158186,5336,"Prostanthera_junonis","New South Wales","Endangered",42
-"647",-33.68682216,151.3158186,5337,"Prostanthera_junonis","New South Wales","Endangered",42
-"648",-33.68682216,151.3158186,5338,"Prostanthera_junonis","New South Wales","Endangered",42
-"649",-33.68682216,151.3158186,5339,"Prostanthera_junonis","New South Wales","Endangered",42
-"650",-33.68682216,151.3158186,5340,"Prostanthera_junonis","New South Wales","Endangered",42
-"651",-33.68682216,151.3158186,5341,"Prostanthera_junonis","New South Wales","Endangered",42
-"652",-33.68682216,151.3158186,5342,"Prostanthera_junonis","New South Wales","Endangered",42
-"653",-33.68682216,151.3158186,5343,"Prostanthera_junonis","New South Wales","Endangered",42
-"654",-33.68682216,151.3158186,5344,"Prostanthera_junonis","New South Wales","Endangered",42
-"655",-33.68682216,151.3158186,5345,"Prostanthera_junonis","New South Wales","Endangered",42
-"656",-33.68682216,151.3158186,5346,"Prostanthera_junonis","New South Wales","Endangered",42
-"657",-33.68682216,151.3158186,5347,"Prostanthera_junonis","New South Wales","Endangered",42
-"658",-33.68682216,151.3158186,5348,"Prostanthera_junonis","New South Wales","Endangered",42
-"659",-33.68682216,151.3158186,5349,"Prostanthera_junonis","New South Wales","Endangered",42
-"660",-33.68682216,151.3158186,5350,"Prostanthera_junonis","New South Wales","Endangered",42
-"661",-33.68682216,151.3158186,5351,"Prostanthera_junonis","New South Wales","Endangered",42
-"662",-33.68682216,151.3158186,5352,"Prostanthera_junonis","New South Wales","Endangered",42
-"663",-33.68682216,151.3158186,5353,"Prostanthera_junonis","New South Wales","Endangered",42
-"664",-33.68682216,151.3158186,5354,"Prostanthera_junonis","New South Wales","Endangered",42
-"665",-33.68682216,151.3158186,5355,"Prostanthera_junonis","New South Wales","Endangered",42
-"666",-33.68682216,151.3158186,5356,"Prostanthera_junonis","New South Wales","Endangered",42
-"667",-33.68682216,151.3158186,5357,"Prostanthera_junonis","New South Wales","Endangered",42
-"668",-33.68682216,151.3158186,5358,"Prostanthera_junonis","New South Wales","Endangered",42
-"669",-33.68682216,151.3158186,5359,"Prostanthera_junonis","New South Wales","Endangered",42
-"670",-33.68682216,151.3158186,5360,"Prostanthera_junonis","New South Wales","Endangered",42
-"671",-33.68682216,151.3158186,5361,"Prostanthera_junonis","New South Wales","Endangered",42
-"672",-33.68682216,151.3158186,5362,"Prostanthera_junonis","New South Wales","Endangered",42
-"673",-33.68682216,151.3158186,5363,"Prostanthera_junonis","New South Wales","Endangered",42
-"674",-33.68682216,151.3158186,5364,"Prostanthera_junonis","New South Wales","Endangered",42
-"675",-33.68682216,151.3158186,5365,"Prostanthera_junonis","New South Wales","Endangered",42
-"676",-33.68682216,151.3158186,5366,"Prostanthera_junonis","New South Wales","Endangered",42
-"677",-33.68682216,151.3158186,5599,"Astrotricha_crassifolia","New South Wales","Vulnerable",42
-"678",-33.68682216,151.3158186,5619,"Genoplesium_baueri","New South Wales","Endangered",42
-"679",-33.68682216,151.3158186,5620,"Genoplesium_baueri","New South Wales","Endangered",42
-"680",-33.68682216,151.3158186,5621,"Genoplesium_baueri","New South Wales","Endangered",42
-"681",-33.68682216,151.3158186,5622,"Genoplesium_baueri","New South Wales","Endangered",42
-"682",-33.64860286,146.385139,5629,"Acacia_curranii","New South Wales","Vulnerable",4
-"683",-33.64860286,146.385139,5630,"Acacia_curranii","New South Wales","Vulnerable",4
-"684",-33.64860286,146.385139,5631,"Acacia_curranii","New South Wales","Vulnerable",4
-"685",-33.64860286,146.385139,5632,"Acacia_curranii","New South Wales","Vulnerable",4
-"686",-33.59852723,138.730096,4746,"Caladenia_argocalla","South Australia","Endangered",21
-"687",-33.59852723,138.730096,4747,"Caladenia_argocalla","South Australia","Endangered",21
-"688",-33.59852723,138.730096,4748,"Caladenia_argocalla","South Australia","Endangered",21
-"689",-33.59852723,138.730096,4749,"Caladenia_argocalla","South Australia","Endangered",21
-"690",-33.59852723,138.730096,4750,"Caladenia_argocalla","South Australia","Endangered",21
-"691",-33.59852723,138.730096,4751,"Caladenia_argocalla","South Australia","Endangered",21
-"692",-33.59852723,138.730096,4752,"Caladenia_argocalla","South Australia","Endangered",21
-"693",-33.59852723,138.730096,4753,"Caladenia_argocalla","South Australia","Endangered",21
-"694",-33.59852723,138.730096,4754,"Caladenia_argocalla","South Australia","Endangered",21
-"695",-33.59852723,138.730096,4755,"Caladenia_argocalla","South Australia","Endangered",21
-"696",-33.59852723,138.730096,4756,"Caladenia_argocalla","South Australia","Endangered",21
-"697",-33.59852723,138.730096,4841,"Caladenia_xanthochila","South Australia","Endangered",21
-"698",-33.59852723,138.730096,4842,"Caladenia_xanthochila","South Australia","Endangered",21
-"699",-33.59852723,138.730096,4843,"Caladenia_xanthochila","South Australia","Endangered",21
-"700",-33.59852723,138.730096,4844,"Caladenia_xanthochila","South Australia","Endangered",21
-"701",-33.59852723,138.730096,4845,"Caladenia_xanthochila","South Australia","Endangered",21
-"702",-33.59852723,138.730096,4846,"Caladenia_xanthochila","South Australia","Endangered",21
-"703",-33.59852723,138.730096,5022,"Acanthocladium_dockeri","South Australia","Critically Endangered",21
-"704",-33.59852723,138.730096,5023,"Acanthocladium_dockeri","South Australia","Critically Endangered",21
-"705",-33.59852723,138.730096,5431,"Pterostylis_despectans","South Australia","Endangered",21
-"706",-33.59852723,138.730096,5437,"Pterostylis_despectans","South Australia","Endangered",21
-"707",-33.52441155,149.7665915,5587,"Zieria_obcordata","New South Wales","Endangered",7
-"708",-33.52441155,149.7665915,5589,"Zieria_obcordata","New South Wales","Endangered",7
-"709",-33.52441155,149.7665915,5590,"Zieria_obcordata","New South Wales","Endangered",7
-"710",-33.52441155,149.7665915,5591,"Zieria_obcordata","New South Wales","Endangered",7
-"711",-33.52441155,149.7665915,5592,"Zieria_obcordata","New South Wales","Endangered",7
-"712",-33.52441155,149.7665915,5593,"Zieria_obcordata","New South Wales","Endangered",7
-"713",-33.52441155,149.7665915,5594,"Zieria_obcordata","New South Wales","Endangered",7
-"714",-33.16202614,150.3893724,4744,"Acacia_gordonii","New South Wales","Endangered",33
-"715",-33.16202614,150.3893724,5216,"Persoonia_hindii","New South Wales","Endangered",33
-"716",-33.16202614,150.3893724,5217,"Persoonia_hindii","New South Wales","Endangered",33
-"717",-33.16202614,150.3893724,5218,"Persoonia_hindii","New South Wales","Endangered",33
-"718",-33.16202614,150.3893724,5219,"Persoonia_hindii","New South Wales","Endangered",33
-"719",-33.16202614,150.3893724,5220,"Persoonia_hindii","New South Wales","Endangered",33
-"720",-33.16202614,150.3893724,5221,"Persoonia_hindii","New South Wales","Endangered",33
-"721",-33.16202614,150.3893724,5222,"Persoonia_hindii","New South Wales","Endangered",33
-"722",-33.16202614,150.3893724,5223,"Persoonia_hindii","New South Wales","Endangered",33
-"723",-33.16202614,150.3893724,5224,"Persoonia_hindii","New South Wales","Endangered",33
-"724",-33.16202614,150.3893724,5225,"Persoonia_hindii","New South Wales","Endangered",33
-"725",-33.16202614,150.3893724,5226,"Persoonia_hindii","New South Wales","Endangered",33
-"726",-33.16202614,150.3893724,5227,"Persoonia_hindii","New South Wales","Endangered",33
-"727",-33.16202614,150.3893724,5228,"Persoonia_hindii","New South Wales","Endangered",33
-"728",-33.16202614,150.3893724,5229,"Persoonia_hindii","New South Wales","Endangered",33
-"729",-33.16202614,150.3893724,5230,"Persoonia_hindii","New South Wales","Endangered",33
-"730",-33.16202614,150.3893724,5231,"Persoonia_hindii","New South Wales","Endangered",33
-"731",-33.16202614,150.3893724,5232,"Persoonia_hindii","New South Wales","Endangered",33
-"732",-33.16202614,150.3893724,5233,"Persoonia_hindii","New South Wales","Endangered",33
-"733",-33.16202614,150.3893724,5234,"Persoonia_hindii","New South Wales","Endangered",33
-"734",-33.16202614,150.3893724,5235,"Persoonia_hindii","New South Wales","Endangered",33
-"735",-33.16202614,150.3893724,5236,"Persoonia_hindii","New South Wales","Endangered",33
-"736",-33.16202614,150.3893724,5237,"Persoonia_hindii","New South Wales","Endangered",33
-"737",-33.16202614,150.3893724,5238,"Persoonia_hindii","New South Wales","Endangered",33
-"738",-33.16202614,150.3893724,5239,"Persoonia_hindii","New South Wales","Endangered",33
-"739",-33.16202614,150.3893724,5240,"Persoonia_hindii","New South Wales","Endangered",33
-"740",-33.16202614,150.3893724,5241,"Persoonia_hindii","New South Wales","Endangered",33
-"741",-33.16202614,150.3893724,5242,"Persoonia_hindii","New South Wales","Endangered",33
-"742",-33.16202614,150.3893724,5243,"Persoonia_hindii","New South Wales","Endangered",33
-"743",-33.16202614,150.3893724,5244,"Persoonia_hindii","New South Wales","Endangered",33
-"744",-33.16202614,150.3893724,5245,"Persoonia_hindii","New South Wales","Endangered",33
-"745",-33.16202614,150.3893724,5560,"Wollemia_nobilis","New South Wales","Critically Endangered",33
-"746",-33.16202614,150.3893724,5633,"Baeckea_kandos","New South Wales","Endangered",33
-"747",-33.14247789,149.9850264,5097,"Grevillea_obtusiflora","New South Wales","Endangered",16
-"748",-33.14247789,149.9850264,5098,"Grevillea_obtusiflora","New South Wales","Endangered",16
-"749",-33.14247789,149.9850264,5099,"Grevillea_obtusiflora","New South Wales","Endangered",16
-"750",-33.14247789,149.9850264,5100,"Grevillea_obtusiflora","New South Wales","Endangered",16
-"751",-33.14247789,149.9850264,5101,"Grevillea_obtusiflora","New South Wales","Endangered",16
-"752",-33.14247789,149.9850264,5102,"Grevillea_obtusiflora","New South Wales","Endangered",16
-"753",-33.14247789,149.9850264,5246,"Persoonia_marginata","New South Wales","Endangered",16
-"754",-33.14247789,149.9850264,5247,"Persoonia_marginata","New South Wales","Endangered",16
-"755",-33.14247789,149.9850264,5248,"Persoonia_marginata","New South Wales","Endangered",16
-"756",-33.14247789,149.9850264,5249,"Persoonia_marginata","New South Wales","Endangered",16
-"757",-33.14247789,149.9850264,5250,"Persoonia_marginata","New South Wales","Endangered",16
-"758",-33.14247789,149.9850264,5251,"Persoonia_marginata","New South Wales","Endangered",16
-"759",-33.14247789,149.9850264,5252,"Persoonia_marginata","New South Wales","Endangered",16
-"760",-33.14247789,149.9850264,5253,"Persoonia_marginata","New South Wales","Endangered",16
-"761",-33.14247789,149.9850264,5254,"Persoonia_marginata","New South Wales","Endangered",16
-"762",-33.14247789,149.9850264,5446,"Pultenaea_sp_Genowlan_Point_NSW","New South Wales","Critically Endangered",16
-"763",-33.10149856,150.9275559,5034,"Asterolasia_elegans","New South Wales","Endangered",7
-"764",-33.10149856,150.9275559,5146,"Micromyrtus_blakelyi","New South Wales","Vulnerable",7
-"765",-33.10149856,150.9275559,5147,"Micromyrtus_blakelyi","New South Wales","Vulnerable",7
-"766",-33.10149856,150.9275559,5148,"Micromyrtus_blakelyi","New South Wales","Vulnerable",7
-"767",-33.10149856,150.9275559,5149,"Micromyrtus_blakelyi","New South Wales","Vulnerable",7
-"768",-33.10149856,150.9275559,5150,"Micromyrtus_blakelyi","New South Wales","Vulnerable",7
-"769",-33.10149856,150.9275559,5151,"Micromyrtus_blakelyi","New South Wales","Vulnerable",7
-"770",-33.05792494,119.0261199,5012,"Eremophila_subteretifolia","Western Australia","Endangered",4
-"771",-33.05792494,119.0261199,5013,"Eremophila_subteretifolia","Western Australia","Endangered",4
-"772",-33.05792494,119.0261199,5625,"Caladenia_graniticola","Western Australia","Endangered",4
-"773",-33.05792494,119.0261199,5626,"Caladenia_graniticola","Western Australia","Endangered",4
-"774",-32.93819303,150.0562368,5095,"Grevillea_obtusiflora","New South Wales","Endangered",2
-"775",-32.93819303,150.0562368,5096,"Grevillea_obtusiflora","New South Wales","Endangered",2
-"776",-32.62683095,139.5561686,5429,"Pterostylis_despectans","South Australia","Endangered",11
-"777",-32.62683095,139.5561686,5430,"Pterostylis_despectans","South Australia","Endangered",11
-"778",-32.62683095,139.5561686,5432,"Pterostylis_despectans","South Australia","Endangered",11
-"779",-32.62683095,139.5561686,5433,"Pterostylis_despectans","South Australia","Endangered",11
-"780",-32.62683095,139.5561686,5434,"Pterostylis_despectans","South Australia","Endangered",11
-"781",-32.62683095,139.5561686,5435,"Pterostylis_despectans","South Australia","Endangered",11
-"782",-32.62683095,139.5561686,5436,"Pterostylis_despectans","South Australia","Endangered",11
-"783",-32.62683095,139.5561686,5438,"Pterostylis_despectans","South Australia","Endangered",11
-"784",-32.62683095,139.5561686,5439,"Pterostylis_despectans","South Australia","Endangered",11
-"785",-32.62683095,139.5561686,5440,"Pterostylis_despectans","South Australia","Endangered",11
-"786",-32.62683095,139.5561686,5441,"Pterostylis_despectans","South Australia","Endangered",11
-"787",-32.52013869,151.1890475,5445,"Pterostylis_gibbosa","New South Wales","Endangered",1
-"788",-32.48331644,138.2653766,4807,"Caladenia_gladiolata","South Australia","Endangered",20
-"789",-32.48331644,138.2653766,4808,"Caladenia_gladiolata","South Australia","Endangered",20
-"790",-32.48331644,138.2653766,4809,"Caladenia_gladiolata","South Australia","Endangered",20
-"791",-32.48331644,138.2653766,4810,"Caladenia_gladiolata","South Australia","Endangered",20
-"792",-32.48331644,138.2653766,4811,"Caladenia_gladiolata","South Australia","Endangered",20
-"793",-32.48331644,138.2653766,4812,"Caladenia_gladiolata","South Australia","Endangered",20
-"794",-32.48331644,138.2653766,4813,"Caladenia_gladiolata","South Australia","Endangered",20
-"795",-32.48331644,138.2653766,4835,"Caladenia_woolcockiorum","South Australia","Vulnerable",20
-"796",-32.48331644,138.2653766,4836,"Caladenia_woolcockiorum","South Australia","Vulnerable",20
-"797",-32.48331644,138.2653766,4837,"Caladenia_woolcockiorum","South Australia","Vulnerable",20
-"798",-32.48331644,138.2653766,4838,"Caladenia_woolcockiorum","South Australia","Vulnerable",20
-"799",-32.48331644,138.2653766,4839,"Caladenia_woolcockiorum","South Australia","Vulnerable",20
-"800",-32.48331644,138.2653766,4840,"Caladenia_woolcockiorum","South Australia","Vulnerable",20
-"801",-32.48331644,138.2653766,5028,"Acanthocladium_dockeri","South Australia","Critically Endangered",20
-"802",-32.48331644,138.2653766,5029,"Acanthocladium_dockeri","South Australia","Critically Endangered",20
-"803",-32.48331644,138.2653766,5297,"Prasophyllum_pallidum","South Australia","Vulnerable",20
-"804",-32.48331644,138.2653766,5475,"Senecio_megaglossus","South Australia","Vulnerable",20
-"805",-32.48331644,138.2653766,5476,"Senecio_megaglossus","South Australia","Vulnerable",20
-"806",-32.48331644,138.2653766,5477,"Senecio_megaglossus","South Australia","Vulnerable",20
-"807",-32.48331644,138.2653766,5478,"Senecio_megaglossus","South Australia","Vulnerable",20
-"808",-32.41332852,117.1792762,4714,"Banksia_ionthocarpa_subsp_chrysophoenix","Western Australia","Endangered",9
-"809",-32.41332852,117.1792762,4715,"Banksia_ionthocarpa_subsp_chrysophoenix","Western Australia","Endangered",9
-"810",-32.41332852,117.1792762,4716,"Banksia_ionthocarpa_subsp_chrysophoenix","Western Australia","Endangered",9
-"811",-32.41332852,117.1792762,4717,"Banksia_ionthocarpa_subsp_chrysophoenix","Western Australia","Endangered",9
-"812",-32.41332852,117.1792762,4735,"Boronia_capitata_subsp_capitata","Western Australia","Endangered",9
-"813",-32.41332852,117.1792762,4847,"Calectasia_pignattiana","Western Australia","Vulnerable",9
-"814",-32.41332852,117.1792762,5558,"Thomasia_montana","Western Australia","Vulnerable",9
-"815",-32.41332852,117.1792762,5611,"Acacia_insolita_subsp_recurva","Western Australia","Endangered",9
-"816",-32.41332852,117.1792762,5612,"Acacia_insolita_subsp_recurva","Western Australia","Endangered",9
-"817",-32.36602361,152.2972976,5603,"Diuris_flavescens","New South Wales","Critically Endangered",4
-"818",-32.36602361,152.2972976,5604,"Diuris_flavescens","New South Wales","Critically Endangered",4
-"819",-32.36602361,152.2972976,5605,"Diuris_flavescens","New South Wales","Critically Endangered",4
-"820",-32.36602361,152.2972976,5606,"Diuris_flavescens","New South Wales","Critically Endangered",4
-"821",-31.20398431,151.6700563,4917,"Pimelea_cremnophila","New South Wales","Critically Endangered",4
-"822",-31.20398431,151.6700563,5031,"Asterolasia_beckersii","New South Wales","Critically Endangered",4
-"823",-31.20398431,151.6700563,5032,"Asterolasia_beckersii","New South Wales","Critically Endangered",4
-"824",-31.20398431,151.6700563,5033,"Asterolasia_beckersii","New South Wales","Critically Endangered",4
-"825",-31.1082037,152.3703361,5579,"Zieria_lasiocaulis","New South Wales","Endangered",8
-"826",-31.1082037,152.3703361,5580,"Zieria_lasiocaulis","New South Wales","Endangered",8
-"827",-31.1082037,152.3703361,5581,"Zieria_lasiocaulis","New South Wales","Endangered",8
-"828",-31.1082037,152.3703361,5582,"Zieria_lasiocaulis","New South Wales","Endangered",8
-"829",-31.1082037,152.3703361,5583,"Zieria_lasiocaulis","New South Wales","Endangered",8
-"830",-31.1082037,152.3703361,5584,"Zieria_lasiocaulis","New South Wales","Endangered",8
-"831",-31.1082037,152.3703361,5585,"Zieria_lasiocaulis","New South Wales","Endangered",8
-"832",-31.1082037,152.3703361,5586,"Zieria_lasiocaulis","New South Wales","Endangered",8
-"833",-30.72067787,144.0403293,5014,"Eriocaulon_carsonii","New South Wales","Endangered",8
-"834",-30.72067787,144.0403293,5015,"Eriocaulon_carsonii","New South Wales","Endangered",8
-"835",-30.72067787,144.0403293,5016,"Eriocaulon_carsonii","New South Wales","Endangered",8
-"836",-30.72067787,144.0403293,5017,"Eriocaulon_carsonii","New South Wales","Endangered",8
-"837",-30.72067787,144.0403293,5018,"Eriocaulon_carsonii","New South Wales","Endangered",8
-"838",-30.72067787,144.0403293,5019,"Eriocaulon_carsonii","New South Wales","Endangered",8
-"839",-30.72067787,144.0403293,5020,"Eriocaulon_carsonii","New South Wales","Endangered",8
-"840",-30.72067787,144.0403293,5021,"Eriocaulon_carsonii","New South Wales","Endangered",8
-"841",-30.62260538,150.6901946,5030,"Asterolasia_beckersii","New South Wales","Critically Endangered",1
-"842",-30.56704355,138.798038,4853,"Acacia_menzelii","South Australia","Vulnerable",10
-"843",-30.56704355,138.798038,4882,"Codonocarpus_pyramidalis","South Australia","Vulnerable",10
-"844",-30.56704355,138.798038,4883,"Codonocarpus_pyramidalis","South Australia","Vulnerable",10
-"845",-30.56704355,138.798038,4884,"Codonocarpus_pyramidalis","South Australia","Vulnerable",10
-"846",-30.56704355,138.798038,5103,"Acacia_araneosa","South Australia","Vulnerable",10
-"847",-30.56704355,138.798038,5104,"Acacia_araneosa","South Australia","Vulnerable",10
-"848",-30.56704355,138.798038,5105,"Acacia_araneosa","South Australia","Vulnerable",10
-"849",-30.56704355,138.798038,5106,"Acacia_araneosa","South Australia","Vulnerable",10
-"850",-30.56704355,138.798038,5107,"Acacia_araneosa","South Australia","Vulnerable",10
-"851",-30.56704355,138.798038,5108,"Acacia_araneosa","South Australia","Vulnerable",10
-"852",-30.49557328,151.0729317,4911,"Acacia_pubifolia","New South Wales","Vulnerable",1
-"853",-30.42953667,152.9262964,5160,"Neoastelia_spectabilis","New South Wales","Vulnerable",4
-"854",-30.42953667,152.9262964,5161,"Neoastelia_spectabilis","New South Wales","Vulnerable",4
-"855",-30.42953667,152.9262964,5162,"Neoastelia_spectabilis","New South Wales","Vulnerable",4
-"856",-30.42953667,152.9262964,5163,"Neoastelia_spectabilis","New South Wales","Vulnerable",4
-"857",-30.03902622,151.9043727,4733,"Eucalyptus_camphora_subsp_relicta","New South Wales","Near Threatened",2
-"858",-30.03902622,151.9043727,4734,"Eucalyptus_camphora_subsp_relicta","New South Wales","Near Threatened",2
-"859",-29.90694164,115.3829825,5051,"Grevillea_calliantha","Western Australia","Critically Endangered",12
-"860",-29.90694164,115.3829825,5052,"Grevillea_calliantha","Western Australia","Critically Endangered",12
-"861",-29.90694164,115.3829825,5053,"Grevillea_calliantha","Western Australia","Critically Endangered",12
-"862",-29.90694164,115.3829825,5054,"Grevillea_calliantha","Western Australia","Critically Endangered",12
-"863",-29.90694164,115.3829825,5055,"Grevillea_calliantha","Western Australia","Critically Endangered",12
-"864",-29.90694164,115.3829825,5056,"Grevillea_calliantha","Western Australia","Critically Endangered",12
-"865",-29.90694164,115.3829825,5057,"Grevillea_calliantha","Western Australia","Critically Endangered",12
-"866",-29.90694164,115.3829825,5481,"Acacia_cochlocarpa_subsp_cochlocarpa","Western Australia","Endangered",12
-"867",-29.90694164,115.3829825,5482,"Acacia_cochlocarpa_subsp_cochlocarpa","Western Australia","Endangered",12
-"868",-29.90694164,115.3829825,5483,"Acacia_cochlocarpa_subsp_cochlocarpa","Western Australia","Endangered",12
-"869",-29.90694164,115.3829825,5484,"Acacia_cochlocarpa_subsp_cochlocarpa","Western Australia","Endangered",12
-"870",-29.90694164,115.3829825,5485,"Acacia_cochlocarpa_subsp_cochlocarpa","Western Australia","Endangered",12
-"871",-29.82068434,153.4153938,5257,"Phaius_australis","New South Wales","Endangered",2
-"872",-29.82068434,153.4153938,5258,"Phaius_australis","New South Wales","Endangered",2
-"873",-29.52739459,141.8754965,5085,"Grevillea_kennedyana","New South Wales","Endangered",18
-"874",-29.52739459,141.8754965,5086,"Grevillea_kennedyana","New South Wales","Endangered",18
-"875",-29.52739459,141.8754965,5087,"Grevillea_kennedyana","New South Wales","Endangered",18
-"876",-29.52739459,141.8754965,5088,"Grevillea_kennedyana","New South Wales","Endangered",18
-"877",-29.52739459,141.8754965,5089,"Grevillea_kennedyana","New South Wales","Endangered",18
-"878",-29.52739459,141.8754965,5090,"Grevillea_kennedyana","New South Wales","Endangered",18
-"879",-29.52739459,141.8754965,5091,"Grevillea_kennedyana","New South Wales","Endangered",18
-"880",-29.52739459,141.8754965,5092,"Grevillea_kennedyana","New South Wales","Endangered",18
-"881",-29.52739459,141.8754965,5565,"Xerothamnella_parvifolia","New South Wales","Vulnerable",18
-"882",-29.52739459,141.8754965,5566,"Xerothamnella_parvifolia","New South Wales","Vulnerable",18
-"883",-29.52739459,141.8754965,5567,"Xerothamnella_parvifolia","New South Wales","Vulnerable",18
-"884",-29.52739459,141.8754965,5568,"Xerothamnella_parvifolia","New South Wales","Vulnerable",18
-"885",-29.52739459,141.8754965,5569,"Xerothamnella_parvifolia","New South Wales","Vulnerable",18
-"886",-29.52739459,141.8754965,5570,"Xerothamnella_parvifolia","New South Wales","Vulnerable",18
-"887",-29.52739459,141.8754965,5571,"Xerothamnella_parvifolia","New South Wales","Vulnerable",18
-"888",-29.52739459,141.8754965,5572,"Xerothamnella_parvifolia","New South Wales","Vulnerable",18
-"889",-29.52739459,141.8754965,5573,"Xerothamnella_parvifolia","New South Wales","Vulnerable",18
-"890",-29.52739459,141.8754965,5574,"Xerothamnella_parvifolia","New South Wales","Vulnerable",18
-"891",-29.47466597,151.3906724,4909,"Acacia_pubifolia","New South Wales","Vulnerable",3
-"892",-29.47466597,151.3906724,5613,"Astrotricha_roddii","New South Wales","Endangered",3
-"893",-29.47466597,151.3906724,5617,"Astrotricha_roddii","New South Wales","Endangered",3
-"894",-29.24588835,153.2593919,5040,"Fontainea_oraria","New South Wales","Critically Endangered",8
-"895",-29.24588835,153.2593919,5367,"Prostanthera_palustris","New South Wales","Critically Endangered",8
-"896",-29.24588835,153.2593919,5368,"Prostanthera_palustris","New South Wales","Critically Endangered",8
-"897",-29.24588835,153.2593919,5369,"Prostanthera_palustris","New South Wales","Critically Endangered",8
-"898",-29.24588835,153.2593919,5370,"Prostanthera_palustris","New South Wales","Critically Endangered",8
-"899",-29.24588835,153.2593919,5371,"Prostanthera_palustris","New South Wales","Critically Endangered",8
-"900",-29.24588835,153.2593919,5372,"Prostanthera_palustris","New South Wales","Critically Endangered",8
-"901",-29.24588835,153.2593919,5373,"Prostanthera_palustris","New South Wales","Critically Endangered",8
-"902",-29.24111411,151.6099142,4910,"Acacia_pubifolia","New South Wales","Vulnerable",6
-"903",-29.24111411,151.6099142,4912,"Phebalium_glandulosum_subsp_eglandulosum","New South Wales","Vulnerable",6
-"904",-29.24111411,151.6099142,4913,"Phebalium_glandulosum_subsp_eglandulosum","New South Wales","Vulnerable",6
-"905",-29.24111411,151.6099142,4914,"Phebalium_glandulosum_subsp_eglandulosum","New South Wales","Vulnerable",6
-"906",-29.24111411,151.6099142,4915,"Phebalium_glandulosum_subsp_eglandulosum","New South Wales","Vulnerable",6
-"907",-29.24111411,151.6099142,4916,"Phebalium_glandulosum_subsp_eglandulosum","New South Wales","Vulnerable",6
-"908",-29.154441,151.2005595,5614,"Astrotricha_roddii","New South Wales","Endangered",3
-"909",-29.154441,151.2005595,5615,"Astrotricha_roddii","New South Wales","Endangered",3
-"910",-29.154441,151.2005595,5616,"Astrotricha_roddii","New South Wales","Endangered",3
-"911",-28.59635014,153.1883811,5110,"Isoglossa_eranthemoides","New South Wales","Endangered",5
-"912",-28.59635014,153.1883811,5111,"Isoglossa_eranthemoides","New South Wales","Endangered",5
-"913",-28.59635014,153.1883811,5112,"Isoglossa_eranthemoides","New South Wales","Endangered",5
-"914",-28.59635014,153.1883811,5113,"Isoglossa_eranthemoides","New South Wales","Endangered",5
-"915",-28.59635014,153.1883811,5157,"Callitris_baileyi","New South Wales","Near Threatened",5
-"916",-28.41963259,153.6112396,5634,"Diuris_byronensis","New South Wales","Critically Endangered",1
-"917",-27.75995263,152.6081037,5042,"Gossia_gonoclada","Queensland","Endangered",4
-"918",-27.75995263,152.6081037,5043,"Gossia_gonoclada","Queensland","Endangered",4
-"919",-27.75995263,152.6081037,5045,"Gossia_gonoclada","Queensland","Endangered",4
-"920",-27.75995263,152.6081037,5046,"Gossia_gonoclada","Queensland","Endangered",4
-"921",-27.20516781,153.3374921,5058,"Grevillea_hodgei","Queensland","Critically Endangered",1
-"922",-27.1534329,152.8243086,5044,"Gossia_gonoclada","Queensland","Endangered",11
-"923",-27.1534329,152.8243086,5047,"Gossia_gonoclada","Queensland","Endangered",11
-"924",-27.1534329,152.8243086,5048,"Gossia_gonoclada","Queensland","Endangered",11
-"925",-27.1534329,152.8243086,5447,"Rhodamnia_rubescens","Queensland","Critically Endangered",11
-"926",-27.1534329,152.8243086,5448,"Rhodamnia_rubescens","Queensland","Critically Endangered",11
-"927",-27.1534329,152.8243086,5449,"Rhodamnia_rubescens","Queensland","Critically Endangered",11
-"928",-27.1534329,152.8243086,5450,"Rhodamnia_rubescens","Queensland","Critically Endangered",11
-"929",-27.1534329,152.8243086,5451,"Rhodamnia_rubescens","Queensland","Critically Endangered",11
-"930",-27.1534329,152.8243086,5452,"Rhodamnia_rubescens","Queensland","Critically Endangered",11
-"931",-27.1534329,152.8243086,5453,"Rhodamnia_rubescens","Queensland","Critically Endangered",11
-"932",-27.1534329,152.8243086,5454,"Rhodamnia_rubescens","Queensland","Critically Endangered",11
-"933",-26.95205403,139.7664607,4886,"Acacia_pickardii","South Australia","Vulnerable",4
-"934",-26.95205403,139.7664607,4887,"Acacia_pickardii","South Australia","Vulnerable",4
-"935",-26.95205403,139.7664607,4888,"Acacia_pickardii","South Australia","Vulnerable",4
-"936",-26.95205403,139.7664607,4889,"Acacia_pickardii","South Australia","Vulnerable",4
-"937",-24.59532144,136.5659338,4885,"Acacia_peuce","Northern Territory","Vulnerable",1
+"","RegionCentroidLatitude","RegionCentroidLongitude","TaxonID","Binomial","State","MaxStatus","count"
+"1",-42.56615211,145.6211809,"p_65305","Prasophyllum_crebriflorum","Tasmania","Endangered",1
+"2",-41.28197086,146.1451601,"p_13915","Caladenia_caudata","Tasmania","Vulnerable",1
+"3",-40.43566564,147.8210816,"p_61178","Phebalium_daviesii","Tasmania","Critically Endangered",3
+"4",-40.43566564,147.8210816,"p_65326","Prasophyllum_pulchellum","Tasmania","Critically Endangered",3
+"5",-38.75598286,143.6921367,"p_48062","Leiocarpa_gatesii","Victoria","Vulnerable",11
+"6",-38.38643205,146.2603928,"p_65549","Prostanthera_galbraithiae","Victoria","Vulnerable",6
+"7",-38.38643205,146.2603928,"p_83539","Xerochrysum_palustre","Victoria","Vulnerable",6
+"8",-38.32100885,144.2402249,"p_38963","Grevillea_infecunda","Victoria","Vulnerable",26
+"9",-37.84704817,143.2517563,"p_25298","Dianella_amoena","Victoria","Endangered",23
+"10",-37.84704817,143.2517563,"p_48300","Lepidium_aschersonii","Victoria","Vulnerable",23
+"11",-37.84704817,143.2517563,"p_65336","Prasophyllum_suaveolens","Victoria","Endangered",23
+"12",-37.84704817,143.2517563,"p_66313","Pterostylis_basaltica","Victoria","Endangered",23
+"13",-37.84704817,143.2517563,"p_70390","Rutidosis_leptorhynchoides","Victoria","Endangered",23
+"14",-37.84704817,143.2517563,"p_72607","Senecio_macrocarpus","Victoria","Vulnerable",23
+"15",-37.84704817,143.2517563,"p_83539","Xerochrysum_palustre","Victoria","Vulnerable",23
+"16",-37.67163105,146.4117217,"p_32586","Eucalyptus_ornans","Victoria","Critically Endangered",1
+"17",-37.34930962,140.0267898,"p_3112","Acanthocladium_dockeri","South Australia","Critically Endangered",6
+"18",-37.34930962,140.0267898,"p_65310","Prasophyllum_frenchii","South Australia","Endangered",6
+"19",-37.34715227,148.3701071,"p_78900","Thesium_australe","Victoria","Vulnerable",1
+"20",-37.25678172,142.3822528,"p_12162","Borya_mirabilis","Victoria","Endangered",3
+"21",-37.25678172,142.3822528,"p_74788","Sphaerolobium_acanthos","Victoria","Critically Endangered",3
+"22",-37.21970708,144.8841341,"p_24601","Daviesia_laevis","Victoria","Vulnerable",8
+"23",-37.21970708,144.8841341,"p_64936","Pomaderris_subplicata","Victoria","Vulnerable",8
+"24",-37.11906715,148.6075466,"p_78900","Thesium_australe","Victoria","Vulnerable",1
+"25",-36.95318691,140.406113,"p_16725","Cassinia_tegulata","South Australia","Critically Endangered",1
+"26",-36.88372003,146.7575184,"p_48300","Lepidium_aschersonii","Victoria","Vulnerable",2
+"27",-36.88372003,146.7575184,"p_83900","Zieria_citriodora","Victoria","Vulnerable",2
+"28",-36.85791566,143.9087018,"p_14735","Calochilus_richiae","Victoria","Endangered",13
+"29",-36.85791566,143.9087018,"p_72607","Senecio_macrocarpus","Victoria","Vulnerable",13
+"30",-36.85791566,143.9087018,"p_9749","Ballantinia_antipoda","Victoria","Endangered",13
+"31",-36.84486422,148.0156427,"p_78900","Thesium_australe","Victoria","Vulnerable",4
+"32",-36.5434572,142.1688746,"p_1103","Acacia_enterocarpa","Victoria","Endangered",9
+"33",-36.5434572,142.1688746,"p_75106","Spyridium_furculentum","Victoria","Endangered",9
+"34",-36.5434572,142.1688746,"p_77242","Swainsona_murrayana","Victoria","Vulnerable",9
+"35",-36.53324171,149.7389788,"p_64867","Pomaderris_pallida","New South Wales","Vulnerable",5
+"36",-36.53324171,149.7389788,"p_83869","Zieria_adenophora","New South Wales","Critically Endangered",5
+"37",-36.53324171,149.7389788,"p_83893","Zieria_buxijugum","New South Wales","Critically Endangered",5
+"38",-36.53324171,149.7389788,"p_83923","Zieria_formosa","New South Wales","Endangered",5
+"39",-36.53324171,149.7389788,"p_84104","Zieria_tuberculata","New South Wales","Vulnerable",5
+"40",-36.31880487,144.9278026,"p_72472","Senecio_behrianus","Victoria","Endangered",38
+"41",-36.31880487,144.9278026,"p_77242","Swainsona_murrayana","Victoria","Vulnerable",38
+"42",-36.31880487,144.9278026,"p_77280","Swainsona_plagiotropis","Victoria","Vulnerable",38
+"43",-36.26694844,146.8284097,"p_77280","Swainsona_plagiotropis","Victoria","Vulnerable",2
+"44",-36.13965496,149.1056612,"p_26648","Diuris_aequalis","New South Wales","Endangered",3
+"45",-36.13965496,149.1056612,"p_64867","Pomaderris_pallida","New South Wales","Vulnerable",3
+"46",-36.13965496,149.1056612,"p_65324","Prasophyllum_petilum","New South Wales","Endangered",3
+"47",-36.0760009,148.4682667,"p_26669","Diuris_ochroma","New South Wales","Vulnerable",2
+"48",-35.97157537,139.9875087,"p_1103","Acacia_enterocarpa","South Australia","Endangered",28
+"49",-35.97157537,139.9875087,"p_13917","Caladenia_colorata","South Australia","Endangered",28
+"50",-35.97157537,139.9875087,"p_65546","Prostanthera_eurybioides","South Australia","Endangered",28
+"51",-35.97157537,139.9875087,"p_72607","Senecio_macrocarpus","South Australia","Vulnerable",28
+"52",-35.97157537,139.9875087,"p_78808","Thelymitra_epipactoides","South Australia","Endangered",28
+"53",-35.95503628,150.2451083,"p_84104","Zieria_tuberculata","New South Wales","Vulnerable",2
+"54",-35.83762242,144.789927,"p_72472","Senecio_behrianus","Victoria","Endangered",3
+"55",-35.83762242,144.789927,"p_77242","Swainsona_murrayana","Victoria","Vulnerable",3
+"56",-35.77465865,139.2177927,"p_13917","Caladenia_colorata","South Australia","Endangered",20
+"57",-35.77465865,139.2177927,"p_57921","Olearia_pannosa_subsp_pannosa","South Australia","Vulnerable",20
+"58",-35.77465865,139.2177927,"p_66311","Pterostylis_arenicola","South Australia","Vulnerable",20
+"59",-35.77465865,139.2177927,"p_78808","Thelymitra_epipactoides","South Australia","Endangered",20
+"60",-35.64006379,140.609955,"p_1103","Acacia_enterocarpa","South Australia","Endangered",14
+"61",-35.64006379,140.609955,"p_16725","Cassinia_tegulata","South Australia","Critically Endangered",14
+"62",-35.64006379,140.609955,"p_61233","Phebalium_lowanense","South Australia","Vulnerable",14
+"63",-35.60727899,141.5734114,"p_75106","Spyridium_furculentum","Victoria","Endangered",3
+"64",-35.43876199,148.8460307,"p_21229","Corunastylis_ectopa","Australian Capital Territory","Critically Endangered",1
+"65",-35.43401712,149.060159,"p_13884","Caladenia_actensis","Australian Capital Territory","Critically Endangered",10
+"66",-35.43401712,149.060159,"p_48334","Lepidium_ginninderrense","Australian Capital Territory","Critically Endangered",10
+"67",-35.43401712,149.060159,"p_56027","Muehlenbeckia_tuggeranong","Australian Capital Territory","Endangered",10
+"68",-35.43401712,149.060159,"p_65324","Prasophyllum_petilum","Australian Capital Territory","Endangered",10
+"69",-35.43401712,149.060159,"p_77289","Swainsona_recta","Australian Capital Territory","Endangered",10
+"70",-35.33131139,138.668376,"p_13890","Caladenia_argocalla","South Australia","Endangered",115
+"71",-35.33131139,138.668376,"p_13917","Caladenia_colorata","South Australia","Endangered",115
+"72",-35.33131139,138.668376,"p_1753","Acacia_menzelii","South Australia","Vulnerable",115
+"73",-35.33131139,138.668376,"p_2056","Acacia_pinguifolia","South Australia","Endangered",115
+"74",-35.33131139,138.668376,"p_2228","Acacia_rhetinocarpa","South Australia","Vulnerable",115
+"75",-35.33131139,138.668376,"p_23291","Prasophyllum_murfetii","South Australia","Critically Endangered",115
+"76",-35.33131139,138.668376,"p_5279","Caladenia_ovata","South Australia","Vulnerable",115
+"77",-35.33131139,138.668376,"p_57921","Olearia_pannosa_subsp_pannosa","South Australia","Vulnerable",115
+"78",-35.33131139,138.668376,"p_65546","Prostanthera_eurybioides","South Australia","Endangered",115
+"79",-35.26523623,150.6600222,"p_10256","Banksia_vincentia","New South Wales","Critically Endangered",5
+"80",-35.26523623,150.6600222,"p_65296","Prasophyllum_affine","New South Wales","Endangered",5
+"81",-35.26523623,150.6600222,"p_84377","Pterostylis_vernalis","New South Wales","Critically Endangered",5
+"82",-35.26523623,150.6600222,"p_84552","Calochilus_pulchellus","New South Wales","Endangered",5
+"83",-35.18624638,142.3331151,"p_77242","Swainsona_murrayana","Victoria","Vulnerable",1
+"84",-34.98189202,150.298742,"p_13996","Caladenia_tessellata","New South Wales","Vulnerable",4
+"85",-34.98189202,150.298742,"p_84377","Pterostylis_vernalis","New South Wales","Critically Endangered",4
+"86",-34.98189202,150.298742,"p_84552","Calochilus_pulchellus","New South Wales","Endangered",4
+"87",-34.95748829,137.4743807,"p_13947","Caladenia_intuta","South Australia","Critically Endangered",11
+"88",-34.95748829,137.4743807,"p_13950","Caladenia_macroclavia","South Australia","Endangered",11
+"89",-34.88766404,138.7623028,"p_13890","Caladenia_argocalla","South Australia","Endangered",123
+"90",-34.88766404,138.7623028,"p_13896","Caladenia_behrii","South Australia","Endangered",123
+"91",-34.88766404,138.7623028,"p_13968","Caladenia_rigida","South Australia","Endangered",123
+"92",-34.88766404,138.7623028,"p_23307","Prasophyllum_pruinosum","South Australia","Endangered",123
+"93",-34.88766404,138.7623028,"p_23890","Pterostylis_psammophila","South Australia","Critically Endangered",123
+"94",-34.88766404,138.7623028,"p_3112","Acanthocladium_dockeri","South Australia","Critically Endangered",123
+"95",-34.88766404,138.7623028,"p_5662","Calochilus_cupreus","South Australia","Critically Endangered",123
+"96",-34.88766404,138.7623028,"p_66327","Pterostylis_cucullata","South Australia","Vulnerable",123
+"97",-34.87182416,149.9592602,"p_13996","Caladenia_tessellata","New South Wales","Vulnerable",11
+"98",-34.87182416,149.9592602,"p_32857","Eucalyptus_recurva","New South Wales","Critically Endangered",11
+"99",-34.87182416,149.9592602,"p_64799","Pomaderris_cotoneaster","New South Wales","Endangered",11
+"100",-34.87182416,149.9592602,"p_64801","Pomaderris_delicata","New South Wales","Critically Endangered",11
+"101",-34.75516376,139.9321759,"p_13917","Caladenia_colorata","South Australia","Endangered",49
+"102",-34.75516376,139.9321759,"p_1753","Acacia_menzelii","South Australia","Vulnerable",49
+"103",-34.75516376,139.9321759,"p_2056","Acacia_pinguifolia","South Australia","Endangered",49
+"104",-34.75516376,139.9321759,"p_2228","Acacia_rhetinocarpa","South Australia","Vulnerable",49
+"105",-34.75516376,139.9321759,"p_57921","Olearia_pannosa_subsp_pannosa","South Australia","Vulnerable",49
+"106",-34.75516376,139.9321759,"p_78808","Thelymitra_epipactoides","South Australia","Endangered",49
+"107",-34.69551507,116.1574097,"p_45433","Isopogon_uncinatus","Western Australia","Critically Endangered",2
+"108",-34.66180604,150.8782982,"p_66338","Pterostylis_gibbosa","New South Wales","Endangered",4
+"109",-34.66180604,150.8782982,"p_84426","Genoplesium_baueri","New South Wales","Endangered",4
+"110",-34.23074081,119.1504387,"p_10002","Banksia_ionthocarpa_subsp_ionthocarpa","Western Australia","Endangered",17
+"111",-34.23074081,119.1504387,"p_10060","Banksia_montana","Western Australia","Critically Endangered",17
+"112",-34.23074081,119.1504387,"p_24369","Darwinia_wittwerorum","Western Australia","Endangered",17
+"113",-34.23074081,119.1504387,"p_24564","Daviesia_glossosema","Western Australia","Critically Endangered",17
+"114",-34.23074081,119.1504387,"p_24678","Daviesia_pseudaphylla","Western Australia","Critically Endangered",17
+"115",-34.23074081,119.1504387,"p_3618","Adenanthos_ellipticus","Western Australia","Endangered",17
+"116",-34.23074081,119.1504387,"p_39124","Grevillea_maxwellii","Western Australia","Critically Endangered",17
+"117",-34.23074081,119.1504387,"p_47152","Kunzea_similis_subsp_similis","Western Australia","Critically Endangered",17
+"118",-34.23074081,119.1504387,"p_49826","Leucopogon_gnaphalioides","Western Australia","Critically Endangered",17
+"119",-34.23074081,119.1504387,"p_5572","Andersonia_axilliflora","Western Australia","Critically Endangered",17
+"120",-34.23074081,119.1504387,"p_60590","Persoonia_micranthera","Western Australia","Critically Endangered",17
+"121",-34.23074081,119.1504387,"p_82210","Verticordia_pityrhops","Western Australia","Endangered",17
+"122",-34.23074081,119.1504387,"p_9806","Banksia_anatona","Western Australia","Critically Endangered",17
+"123",-34.23074081,119.1504387,"p_9844","Banksia_brownii","Western Australia","Critically Endangered",17
+"124",-34.22528357,150.3223691,"p_64799","Pomaderris_cotoneaster","New South Wales","Endangered",6
+"125",-34.22470711,151.0051801,"p_8402","Astrotricha_crassifolia","New South Wales","Vulnerable",1
+"126",-34.15050767,116.6498318,"p_38532","Grevillea_acropogon","Western Australia","Endangered",8
+"127",-34.15050767,116.6498318,"p_45433","Isopogon_uncinatus","Western Australia","Critically Endangered",8
+"128",-34.15050767,116.6498318,"p_47552","Lambertia_orbifolia_subsp_orbifolia","Western Australia","Endangered",8
+"129",-34.15050767,116.6498318,"p_5634","Andersonia_pinaster","Western Australia","Vulnerable",8
+"130",-34.15050767,116.6498318,"p_9844","Banksia_brownii","Western Australia","Critically Endangered",8
+"131",-34.1382346,148.3763939,"p_12253","Bossiaea_fragrans","New South Wales","Critically Endangered",16
+"132",-34.1382346,148.3763939,"p_39649","Grevillea_wilkinsonii","New South Wales","Critically Endangered",16
+"133",-34.1382346,148.3763939,"p_65324","Prasophyllum_petilum","New South Wales","Endangered",16
+"134",-34.1382346,148.3763939,"p_83988","Zieria_obcordata","New South Wales","Endangered",16
+"135",-34.0400509,150.0838695,"p_26648","Diuris_aequalis","New South Wales","Endangered",2
+"136",-33.91392283,137.9381525,"p_3112","Acanthocladium_dockeri","South Australia","Critically Endangered",12
+"137",-33.91392283,137.9381525,"p_66311","Pterostylis_arenicola","South Australia","Vulnerable",12
+"138",-33.91392283,137.9381525,"p_84448","Pterostylis_lepida","South Australia","Endangered",12
+"139",-33.79845532,134.7934883,"p_63556","Angianthus_phyllocalymmeus","South Australia","Vulnerable",1
+"140",-33.68682216,151.3158186,"p_55018","Micromyrtus_blakelyi","New South Wales","Vulnerable",42
+"141",-33.68682216,151.3158186,"p_65567","Prostanthera_junonis","New South Wales","Endangered",42
+"142",-33.68682216,151.3158186,"p_8402","Astrotricha_crassifolia","New South Wales","Vulnerable",42
+"143",-33.68682216,151.3158186,"p_84426","Genoplesium_baueri","New South Wales","Endangered",42
+"144",-33.64860286,146.385139,"p_850","Acacia_curranii","New South Wales","Vulnerable",4
+"145",-33.59852723,138.730096,"p_13890","Caladenia_argocalla","South Australia","Endangered",21
+"146",-33.59852723,138.730096,"p_14009","Caladenia_xanthochila","South Australia","Endangered",21
+"147",-33.59852723,138.730096,"p_3112","Acanthocladium_dockeri","South Australia","Critically Endangered",21
+"148",-33.59852723,138.730096,"p_66331","Pterostylis_despectans","South Australia","Endangered",21
+"149",-33.52441155,149.7665915,"p_83988","Zieria_obcordata","New South Wales","Endangered",7
+"150",-33.16202614,150.3893724,"p_1288","Acacia_gordonii","New South Wales","Endangered",33
+"151",-33.16202614,150.3893724,"p_60529","Persoonia_hindii","New South Wales","Endangered",33
+"152",-33.16202614,150.3893724,"p_83230","Wollemia_nobilis","New South Wales","Critically Endangered",33
+"153",-33.16202614,150.3893724,"p_9469","Baeckea_kandos","New South Wales","Endangered",33
+"154",-33.14247789,149.9850264,"p_39195","Grevillea_obtusiflora","New South Wales","Endangered",16
+"155",-33.14247789,149.9850264,"p_60584","Persoonia_marginata","New South Wales","Endangered",16
+"156",-33.14247789,149.9850264,"p_67132","Pultenaea_sp_Genowlan_Point_NSW","New South Wales","Critically Endangered",16
+"157",-33.10149856,150.9275559,"p_3142","Asterolasia_elegans","New South Wales","Endangered",7
+"158",-33.10149856,150.9275559,"p_55018","Micromyrtus_blakelyi","New South Wales","Vulnerable",7
+"159",-33.05792494,119.0261199,"p_30220","Eremophila_subteretifolia","Western Australia","Endangered",4
+"160",-33.05792494,119.0261199,"p_84523","Caladenia_graniticola","Western Australia","Endangered",4
+"161",-32.93819303,150.0562368,"p_39195","Grevillea_obtusiflora","New South Wales","Endangered",2
+"162",-32.62683095,139.5561686,"p_66331","Pterostylis_despectans","South Australia","Endangered",11
+"163",-32.52013869,151.1890475,"p_66338","Pterostylis_gibbosa","New South Wales","Endangered",1
+"164",-32.48331644,138.2653766,"p_13938","Caladenia_gladiolata","South Australia","Endangered",20
+"165",-32.48331644,138.2653766,"p_14006","Caladenia_woolcockiorum","South Australia","Vulnerable",20
+"166",-32.48331644,138.2653766,"p_3112","Acanthocladium_dockeri","South Australia","Critically Endangered",20
+"167",-32.48331644,138.2653766,"p_65321","Prasophyllum_pallidum","South Australia","Vulnerable",20
+"168",-32.48331644,138.2653766,"p_72612","Senecio_megaglossus","South Australia","Vulnerable",20
+"169",-32.41332852,117.1792762,"p_10001","Banksia_ionthocarpa_subsp_chrysophoenix","Western Australia","Endangered",9
+"170",-32.41332852,117.1792762,"p_11752","Boronia_capitata_subsp_capitata","Western Australia","Endangered",9
+"171",-32.41332852,117.1792762,"p_14241","Calectasia_pignattiana","Western Australia","Vulnerable",9
+"172",-32.41332852,117.1792762,"p_78974","Thomasia_montana","Western Australia","Vulnerable",9
+"173",-32.41332852,117.1792762,"p_84390","Acacia_insolita_subsp_recurva","Western Australia","Endangered",9
+"174",-32.36602361,152.2972976,"p_84351","Diuris_flavescens","New South Wales","Critically Endangered",4
+"175",-31.20398431,151.6700563,"p_22261","Pimelea_cremnophila","New South Wales","Critically Endangered",4
+"176",-31.20398431,151.6700563,"p_3137","Asterolasia_beckersii","New South Wales","Critically Endangered",4
+"177",-31.1082037,152.3703361,"p_83970","Zieria_lasiocaulis","New South Wales","Endangered",8
+"178",-30.72067787,144.0403293,"p_30544","Eriocaulon_carsonii","New South Wales","Endangered",8
+"179",-30.62260538,150.6901946,"p_3137","Asterolasia_beckersii","New South Wales","Critically Endangered",1
+"180",-30.56704355,138.798038,"p_1753","Acacia_menzelii","South Australia","Vulnerable",10
+"181",-30.56704355,138.798038,"p_19789","Codonocarpus_pyramidalis","South Australia","Vulnerable",10
+"182",-30.56704355,138.798038,"p_392","Acacia_araneosa","South Australia","Vulnerable",10
+"183",-30.49557328,151.0729317,"p_2131","Acacia_pubifolia","New South Wales","Vulnerable",1
+"184",-30.42953667,152.9262964,"p_56920","Neoastelia_spectabilis","New South Wales","Vulnerable",4
+"185",-30.03902622,151.9043727,"p_11588","Eucalyptus_camphora_subsp_relicta","New South Wales","Near Threatened",2
+"186",-29.90694164,115.3829825,"p_38710","Grevillea_calliantha","Western Australia","Critically Endangered",12
+"187",-29.90694164,115.3829825,"p_749","Acacia_cochlocarpa_subsp_cochlocarpa","Western Australia","Endangered",12
+"188",-29.82068434,153.4153938,"p_61041","Phaius_australis","New South Wales","Endangered",2
+"189",-29.52739459,141.8754965,"p_39012","Grevillea_kennedyana","New South Wales","Endangered",18
+"190",-29.52739459,141.8754965,"p_83638","Xerothamnella_parvifolia","New South Wales","Vulnerable",18
+"191",-29.47466597,151.3906724,"p_2131","Acacia_pubifolia","New South Wales","Vulnerable",3
+"192",-29.47466597,151.3906724,"p_8442","Astrotricha_roddii","New South Wales","Endangered",3
+"193",-29.24588835,153.2593919,"p_35619","Fontainea_oraria","New South Wales","Critically Endangered",8
+"194",-29.24588835,153.2593919,"p_65607","Prostanthera_palustris","New South Wales","Critically Endangered",8
+"195",-29.24111411,151.6099142,"p_2131","Acacia_pubifolia","New South Wales","Vulnerable",6
+"196",-29.24111411,151.6099142,"p_21890","Phebalium_glandulosum_subsp_eglandulosum","New South Wales","Vulnerable",6
+"197",-29.154441,151.2005595,"p_8442","Astrotricha_roddii","New South Wales","Endangered",3
+"198",-28.59635014,153.1883811,"p_45206","Isoglossa_eranthemoides","New South Wales","Endangered",5
+"199",-28.59635014,153.1883811,"p_5620","Callitris_baileyi","New South Wales","Near Threatened",5
+"200",-28.41963259,153.6112396,"p_9726","Diuris_byronensis","New South Wales","Critically Endangered",1
+"201",-27.75995263,152.6081037,"p_38343","Gossia_gonoclada","Queensland","Endangered",4
+"202",-27.20516781,153.3374921,"p_38930","Grevillea_hodgei","Queensland","Critically Endangered",1
+"203",-27.1534329,152.8243086,"p_38343","Gossia_gonoclada","Queensland","Endangered",11
+"204",-27.1534329,152.8243086,"p_69275","Rhodamnia_rubescens","Queensland","Critically Endangered",11
+"205",-26.95205403,139.7664607,"p_2049","Acacia_pickardii","South Australia","Vulnerable",4
+"206",-24.59532144,136.5659338,"p_2039","Acacia_peuce","Northern Territory","Vulnerable",1
