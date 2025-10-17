@@ -11,11 +11,65 @@
 </head>
 
 <body>
+    <div class=""></div>
+
+    <!-- Introduction -->
 
     <h1>An Exploration of Australian Endangered Plant Species</h1>
-    <div id="dot_map"></div>
-    <div id="bar_chart"></div>
-    <div id="time_series"></div>
+
+    <!-- Visualisation 1: Dot Map  -->
+    <div class = "vis1">
+        <p>The following map visualises the distribution of Endangered Australian plant species from the results of a 2024 survey completed by the Threatened Species Index(TSX) <em>(1)</em>.
+            TSX aimed to track the presence of endangered Australian plant species across the states.
+            Along the coast of New South Wales, Victoria and parts of South Australia and Western Australia, 
+            there are large concentrations of threatened species. This is often believed to be due to the high rates of urbanisation 
+            leading to the destruction of native habitats of local flora <em>(2)</em>.
+        </p>
+    </div>
+    <div class = "vis1">
+        <div id="dot_map" class="visualisation"></div>
+    </div>
+
+    <!-- Visualisation 2: Bar Chart of States  -->
+
+    <div class = "vis2">
+        <p>This bar chart displays the results of the individual records of the TSX survey, <b>New South Wales</b> contains the <b>largest</b> number of endangered species collected within the survey with <b>69</b> different species being at an EPBC status of 'Near Threatened'
+             or above, whereas the <b>Northern Territory</b> contains the <b>least</b> endangered species with <b>1</b> endangered species recorded. Out of the 8 Australian states, only half of them make up 92.7% of the endangered species collected in this survey.
+             It must be noted, this survey was only able to collect samples on 206 out of the 1,451 species that are currently considered "at Risk" in Australia and as such can only give us a limited insight into the distribution of 'At Risk' species throughout Australia.
+        </p>
+    </div>
+    
+
+    
+    <div class = "vis2">
+        <div id="bar_chart" class="visualisation"></div>
+    </div>
+
+    <!-- Visualisation 3: Time Series  -->
+    <div>
+        <p>The following area chart displays time series data from the Australian Department of Climate Change, Energy, the Environment and Water and shows the increase of 'At Risk' species within
+            Australia from 2000-2025. It appears that as times goes on, the number of 'at risk' species <b>increases at a faster and faster rate</b>. This is apparant from the rapid widening of the 'Critically Endangered' section of the graph as we approach 2025.
+            Best estimates place the number of plant species in Australia at around <b>18,200</b> different species <em>(4)</em>, meaning that at the current moment, approximately <b>8%</b> of the plant species 
+            within Australia are at risk of endangerment and subsequent extinction. 
+        </p>
+    </div>
+    <div, class="vis3">
+        <div id="time_series" class="visualisation"></div>
+    </div>
+
+    <div>
+        <h1>References</h1>
+        <ol>
+            <li>https://tsx.org.au/</li>
+            <li>https://trustfornature.org.au/priorities/protecting-threatened-species/</li>
+            <li>https://www.greenadelaide.sa.gov.au/news/2023-rare-native-plant-species</li>
+            <li>https://www.dcceew.gov.au/science-research/abrs/publications/other/numbers-living-species/discussion-plants</li>
+
+        </ol>
+        
+    </div>
+    
+    
 
     <script>
         var vg_1 = "./Visualisations/BarGraph.vg.json";
