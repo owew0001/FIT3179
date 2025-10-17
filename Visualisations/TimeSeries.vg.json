@@ -33,7 +33,8 @@
       "encoding": {
         "x": {"field":"year","type": "temporal","axis": {"title": "Year", "format": "%b %Y"},"scale":{"domain":{"param": "brush"}}},
         "y": {"field":"cumulative_value","type": "quantitative","axis":{"grid": false,"title":"'At Risk' Plant Species"}},
-        "color":{"field":"Status","type": "ordinal","scale":{"domain":["Vulnerable", "Endangered","Critically Endangered"],"range":["#95d5b2","#52b788","#2d6a4f"]}}}
+        "color":{"field":"Status","type": "ordinal","scale":{"domain":["Vulnerable", "Endangered","Critically Endangered"],"range":["#95d5b2","#52b788","#2d6a4f"]}},
+      "tooltip":[{"field":"year","type": "temporal","format":"%b %Y", "title":"Year"},{"field":"cumulative_value","type": "quantitative","title":"'At Risk' Species"}]}
     },
     {
       "height":100,
