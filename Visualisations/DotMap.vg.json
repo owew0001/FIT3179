@@ -1,6 +1,6 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "background":"lightskyblue",
+  "background":"white",
   "width": 800,
   "height": 450,
   "title": "Endangered Plants across Australia",
@@ -15,7 +15,7 @@
     },
     {
       "data":{
-        "url": "https://raw.githubusercontent.com/owew0001/FIT3179/refs/heads/main/Data/Conservation_Data.csv"
+        "url": "https://raw.githubusercontent.com/owew0001/FIT3179/main/Data/FilteredData.csv"
 
       },
       "mark":{"type": "circle","size":40,"stroke":"black","strokeWidth":0.5 },
@@ -23,12 +23,11 @@
       "encoding": {
         "longitude":{"field":"RegionCentroidLongitude","type": "quantitative"},
         "latitude":{"field":"RegionCentroidLatitude", "type": "quantitative"},
-        "tooltip":[{"field":"EPBCStatus","type": "ordinal", "title":"Status"},{"field":"Binomial","type": "nominal","title": "Name"}],
-        "color":{"field":"EPBCStatus","type": "ordinal","scale":{"domain":["Vulnerable","Endangered","Critically Endangered"],"range":["#95D5B2","#40916C","#081C15"]}}
+        "tooltip":[{"field":"MaxStatus","type": "ordinal", "title":"Status"},{"field":"Binomial","type": "nominal","title": "Name"}],
+        "color":{"field":"MaxStatus","type": "ordinal","scale":{"domain":["Vulnerable","Endangered","Critically Endangered"],"range":["#95D5B2","#40916C","#081C15"]}}
       }
 
       }
     
-  ],
-  "view": {"fill":"lightskyblue"}
+  ]
 }
