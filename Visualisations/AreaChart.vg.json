@@ -1,0 +1,60 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": "container",
+  "height": "container",
+  "title": "Drivers of Deforestation in Australia by Year",
+  "data":{
+        "url": "https://raw.githubusercontent.com/owew0001/FIT3179/refs/heads/main/Data/DeforestDrivers.csv"
+
+      },
+"params": [{"name": "Year", "value": 2001,
+      "bind":{"input": "range",
+                "min": 2001,
+                "max": 2024,
+            "step": 1,
+            "name": "Select Year"}}],
+    "transform": [{ "filter": "datum.drivers_type != 'Shifting cultivation'" },{"filter": "datum.loss_year == Year"},
+          {"window": [{"op":"sum","field": "loss_area_ha","as":"total_loss"}],"frame": [null,null]},
+          {"calculate": "datum.loss_area_ha/datum.total_loss", "as": "percent"},{
+      "calculate": "'Hectares Lost: ' + format(datum.total_loss, ',.2f')+ ' ha'",
+      "as": "total_loss_label"
+    }],
+
+    "encoding": {
+        "theta":{"field":"loss_area_ha","type": "quantitative","stack":true},
+        "color":{"field":"drivers_type","type":"nominal", "legend": {"title": "Drivers"},"scale": {
+    "range": ["#2E7D32", "#689F38", "#F9A825", "#EF6C00", "#6D4C41", "#D7CCC8", "#424242"]
+  }},
+        "tooltip": [{"field":"drivers_type", "type": "nominal", "title":"Driver of Deforestation"}, {"field":"loss_area_ha","type": "quantitative", "title": "Hectares Lost (ha)", "format":".2f"},
+      {"field":"percent", "format":".1%", "title": "Percentage"}]
+        
+      },
+  "layer": [
+    {
+
+      "mark":{"type": "arc", "outerRadius": 230, "innerRadius":100 }
+      
+
+      },
+      {
+        "mark": {"type": "text",
+        "align":"center",
+                "radius":250, 
+              "fontSize":12},
+            "encoding": {"theta": {"field":"loss_area_ha","type": "quantitative"},
+          "text":{"field":"percent","type": "quantitative","format":".1%"}}},
+
+           {"mark": {
+        "type": "text",
+        "fontSize": 12,
+        "fontWeight": "bold",
+        "fill": "black",
+        "align": "center"
+      },
+      "encoding": {
+        "text": { "field":"total_loss_label"}
+      }}
+    
+    
+  ]
+}
