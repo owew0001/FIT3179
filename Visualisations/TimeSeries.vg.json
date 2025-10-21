@@ -38,7 +38,7 @@
     },
     {
       "height":100,
-      "width":700,
+      "width":600,
       "mark":{"type": "line","color":"#2d6a4f"},
       "params": [{"name": "brush","select":{"type": "interval","encodings": ["x"]}}],
       "encoding": {"x": {"field":"year","type": "temporal","axis": {"title": "", "format": "%Y"}},
@@ -47,4 +47,5 @@
     }
   ]
 }
+
 
