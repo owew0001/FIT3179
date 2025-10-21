@@ -1,0 +1,61 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "background": "white",
+
+  "data": {
+    "url": "https://raw.githubusercontent.com/owew0001/FIT3179/refs/heads/main/Data/LGAMap",
+    "format": { "type": "topojson", "feature": "LGA_2024_AUST_GDA2020" }
+  },
+  "projection": {
+    "type": "conicConformal", 
+    "center": [133,-25],
+    "parallels": [-35, -45],
+    "rotate": [-133,0]
+  },
+
+  "transform": [
+    {
+      "lookup": "properties.LGA_NAME24",
+      "from": {
+        "data": {
+          "url": "https://raw.githubusercontent.com/owew0001/FIT3179/refs/heads/main/Data/TreeCoverLoss.csv",
+          "format": { "type": "csv" }
+        },
+        "key": "subnational2",
+        "fields": ["tc_loss_ha_2005", "tc_loss_ha_2012", "tc_loss_ha_2020", "tc_loss_ha_2023"]
+      }
+    }
+  ],
+
+  "vconcat": [
+    {"height":300,
+  "width":700,
+  "title": "Deforestation of Land (Hectares) 2005",
+  "mark": {
+        "type": "geoshape"},
+
+      "encoding": {"color":{"field":"tc_loss_ha_2005","type": "quantitative",
+      "scale":{"scheme":"lightgreyred", "domain":[0,8500]},
+    "legend": {"title": "Hectares"}},
+      "tooltip":[{"field":"tc_loss_ha_2005","type": "quantitative","title":"Deforested Land (Hectares)"},
+    {"field":"properties.LGA_NAME24","title": "Local Government Area"}]}
+    },
+      
+      {"height":300,
+  "width":700,
+  "title": "Deforestation of Land (Hectares) 2023",
+  "mark": {
+        "type": "geoshape"},
+
+      "encoding": {"color":{"field":"tc_loss_ha_2023","type": "quantitative"
+      },
+    "tooltip":[{"field":"tc_loss_ha_2023","type": "quantitative","title":"Deforested Land (Hectares)"},
+    {"field":"properties.LGA_NAME24", "title": "Local Government Area"}]}
+  }
+  ]
+  }
+    
+
+      
+
+    
