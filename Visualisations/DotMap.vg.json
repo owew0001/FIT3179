@@ -1,15 +1,20 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "background":"white",
-  "width": 800,
-  "height": 450,
+  "width": 500,
+  "height": 350,
   "title": "Endangered Plants across Australia",
-  "projection": {"type": "mercator"},
+  "projection": {
+    "type": "conicConformal", 
+    "center": [133,-25],
+    "parallels": [-35, -45],
+    "rotate": [-133,0]
+  },
   "layer": [
     {
       "data": {
         "url": "https://raw.githubusercontent.com/owew0001/FIT3179/refs/heads/main/Data/MapData",
-        "format": {"type": "topojson", "feature": "STE_2016_AUST"}
+        "format": {"type": "topojson", "feature": "australian-states.min"}
       },
       "mark": {"type": "geoshape", "fill": "#fdf0d5", "stroke": "#76c893"}
     },
