@@ -1,0 +1,30 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": 500,
+  "height": 450,
+  "title": "Hectares of Land lost due to Deforestation by State",
+  "data":{
+        "url": "https://raw.githubusercontent.com/owew0001/FIT3179/refs/heads/main/Data/TreeCoverLossLong.csv"
+
+      },
+
+  "layer": [
+    {
+
+      "mark":{"type": "line", "point": {"size":15} },
+
+      "encoding": {
+        "x":{"field":"year","type": "temporal", "axis":{"title":"Year"}},
+        "y":{"field":"Total_Value","type":"quantitative", "scale":{"type": "sqrt"}, "axis":{"title":"Deforested Hectares"}},
+        "color": {"field": "subnational1","type": "nominal", "scale":{"scheme":"accent"}, "legend":{"title":"State"}},
+        "tooltip":[{"field":"year","type": "temporal", "title": "Year","format":"%Y"},
+        {"field":"Total_Value","type":"quantitative", "title": "Hectares Lost"},
+        {"field":"subnational1", "title": "State"}]
+      }
+      
+
+      }
+    
+  ]
+}
+
