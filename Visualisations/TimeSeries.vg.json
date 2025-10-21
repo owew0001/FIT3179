@@ -27,8 +27,8 @@
                     "frame": [null, 0]}],
 
   "vconcat": [
-    { "width": 800,
-      "height": 450,
+    { "width": 700,
+      "height": 350,
       "mark": {"type": "area"},
       "encoding": {
         "x": {"field":"year","type": "temporal","axis": {"title": "Year", "format": "%b %Y"},"scale":{"domain":{"param": "brush"}}},
@@ -38,7 +38,7 @@
     },
     {
       "height":100,
-      "width":800,
+      "width":700,
       "mark":{"type": "line","color":"#2d6a4f"},
       "params": [{"name": "brush","select":{"type": "interval","encodings": ["x"]}}],
       "encoding": {"x": {"field":"year","type": "temporal","axis": {"title": "", "format": "%Y"}},
@@ -47,3 +47,4 @@
     }
   ]
 }
+
