@@ -8,65 +8,224 @@
     <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.1.0"></script>
     <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.17.0"></script>
     <title>Australian Plants - At Risk </title>
+    <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.3/build/pure-min.css"
+    integrity="sha384-cg6SkqEOCV1NbJoCu11+bm0NvBRc8IYLRGXkmNrqUBfTjmMYwNKPWBTIKyw9mHNJ" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <style>
+        * {
+      font-family: 'Oxygen', sans-serif;
+      line-height: 1.5;
+        }
+        h1 {
+            font-weight: 900;
+            text-align: center;
+        }
+
+        body {
+            background-color: darkseagreen;
+        }
+        .main_page {
+            background-color:rgb(166, 201, 166);
+            width: 750 px;
+            margin-top: 20px;
+            margin-bottom: 20 px;
+            padding: 70px;
+            border-radius: 10px;
+        }
+
+        .visualisation {
+            background-color: white;
+            padding: 70px;
+            height: 750px;
+            width:1000px;
+            margin-top: 30px;
+            border-radius: 10px;
+        }
+        .visualisation.dot-map{
+            height: 400px;
+            
+        }
+
+        .references {
+            text-align: left;
+        }
+        .container {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            gap: 30px ;
+
+        }
+
+        .text {
+            flex: 1;
+            max-width: 30%;
+        }
+        .annulus-chart {
+            flex: 1;
+            width: 550px;
+            height: 600px;
+        }
+    </style>
+
 </head>
 
 <body>
-    <div class=""></div>
+    <div class="main_page">
 
     <!-- Introduction -->
 
     <h1>An Exploration of Australian Endangered Plant Species</h1>
 
     <!-- Visualisation 1: Dot Map  -->
-    <div class = "vis1">
-        <p>The following map visualises the distribution of Endangered Australian plant species from the results of a 2024 survey completed by the Threatened Species Index(TSX) <em>(1)</em>.
+    <div class = "visualisation dot-map">
+        <h3>Where are all of these 'at risk' plants</h3>
+        <div class="container">
+            <div class="text">
+            <p>The following map visualises the distribution of Endangered Australian plant species from the results of a 2024 survey completed by the Threatened Species Index(TSX) <em>(1)</em>.
             TSX aimed to track the presence of endangered Australian plant species across the states.
             Along the coast of New South Wales, Victoria and parts of South Australia and Western Australia, 
             there are large concentrations of threatened species. This is often believed to be due to the high rates of urbanisation 
             leading to the destruction of native habitats of local flora <em>(2)</em>.
-        </p>
+            </p> 
+        </div>
+        
+
+        <div id="dot_map" class="dot_map"></div>
+        </div>
     </div>
-    <div class = "vis1">
-        <div id="dot_map" class="visualisation"></div>
-    </div>
+
 
     <!-- Visualisation 2: Bar Chart of States  -->
 
-    <div class = "vis2">
-        <p>This bar chart displays the results of the individual records of the TSX survey, <b>New South Wales</b> contains the <b>largest</b> number of endangered species collected within the survey with <b>69</b> different species being at an EPBC status of 'Near Threatened'
+    <div class = "visualisation bar_chart ">
+        
+        <div><p>This bar chart displays the results of the individual records of the TSX survey, <b>New South Wales</b> contains the <b>largest</b> number of endangered species collected within the survey with <b>69</b> different species being at an EPBC status of 'Near Threatened'
              or above, whereas the <b>Northern Territory</b> contains the <b>least</b> endangered species with <b>1</b> endangered species recorded. Out of the 8 Australian states, only half of them make up 92.7% of the endangered species collected in this survey.
              It must be noted, this survey was only able to collect samples on 206 out of the 1,451 species that are currently considered "at Risk" in Australia and as such can only give us a limited insight into the distribution of 'At Risk' species throughout Australia.
-        </p>
+            </p>
+        </div>
+
+        <div id="bar_chart"></div>
     </div>
     
 
     
-    <div class = "vis2">
-        <div id="bar_chart" class="visualisation"></div>
-    </div>
+
 
     <!-- Visualisation 3: Time Series  -->
-    <div>
-        <p>The following area chart displays time series data from the Australian Department of Climate Change, Energy, the Environment and Water and shows the increase of 'At Risk' species within
-            Australia from 2000-2025. It appears that as times goes on, the number of 'at risk' species <b>increases at a faster and faster rate</b>. This is apparant from the rapid widening of the 'Critically Endangered' section of the graph as we approach 2025.
+    <div class="visualisation time_series">
+        <h3>How bad is it?</h3>
+        <div>
+            <p>The following area chart displays time series data from the Australian Department of Climate Change, Energy, the Environment and Water and shows the increase of 'At Risk' species within
+            Australia from 2000-2025. </p>
+            
+            <p>It appears that as times goes on, the number of 'at risk' species <b>increases at a faster and faster rate</b>. This is apparant from the rapid widening of the 'Critically Endangered' section of the graph as we approach 2025.
+            </p> <p>
             Best estimates place the number of plant species in Australia at around <b>18,200</b> different species <em>(4)</em>, meaning that at the current moment, approximately <b>8%</b> of the plant species 
             within Australia are at risk of endangerment and subsequent extinction. 
-        </p>
-    </div>
-    <div, class="vis3">
-        <div id="time_series" class="visualisation"></div>
+            </p>
+        </div>
+
+        <div id="time_series" ></div>
+
     </div>
 
-    <div>
+    <!-- Visualisation 4: Line Graph  -->
+    <div class="visualisation line_graph">
+        <h2>What is causing this? </h2>
+        <div class="container">
+        <div class="text">
+            <p> The underlying cause of plant endangerment is the destruction of natural habitats from deforestation.
+                </p>
+                <p>
+                 Utilsing data from the Global Forest Watch <em>(5)</em> we can get an idea of where
+                deforestation is occuring the most within Australia. We see that New South Wales, Victoria and Western Australia all have high rates of deforestation which is consistent with the map displaying endangered plant species shown above.
+                </p>
+                <p>
+                We see a notable uptick in <b>2020</b> indicating that an extreme event likely occurred at this time.
+            </p>
+        </div>
+
+        <div id="line_graph" class="line_graph-chart" ></div>
+        </div>
+
+    </div>
+
+    <!-- Visualisation 5: Choropleth  -->
+    <div class="visualisation choropleth">
+        <h3>What does deforestation look like across Australia?</h3>
+        <div class="container">
+        <div id="choropleth" class="choropleth-chart" ></div>
+        <div class="text">
+            <p> Utilising spatial data from Global Forest Watch <em>(5)</em> we can take a closer look at the distribution of deforestation across Australia. 
+                We can see that <b>along the coasts </b> is where we see the <b>highest </b> concentrations of deforestation, likely due to the concentration of human infrastructure and expansion 
+                into natural habitats. Comparing data from <b>2005 to 2023 </b>, we can see that there is a <b>definite increase in the acreage of forests being lost </b> again with much of the red being concentrated
+                near human civilisations. 
+
+            </p>
+        </div>
+
+        
+
+        </div>
+
+    </div>
+
+    <!-- Visualisation 6: Annulus Chart  -->
+    <div class="visualisation annulus">
+        <h3>What is the root cause of deforestation?</h3>
+        <div class="container">
+            <div class="text">
+            <p> As with any longstanding problem, we see that deforestation is a multifaceted problem with many causes. However, it is clear that the <b>largest contributer</b>
+                to deforestation within Australia is <b>Wildfires</b>. This is due to Australia's dry and arid climate, naturally flammable vegetation, and human interference <em>(6)</em>. 
+                <b>Logging</b> is the <b>second largest contributer</b> with it consistently causing <b>>18%</b> of the deforestation within Australia. Notably this was <b>not the trend in 2019</b> due to the global COVID pandemic 
+                and numerous intense wildfires in the 'Black Summer' period lasting from June 2019 - March 2020 <em>(7)</em>.
+            </p>
+        </div >
+
+        <div id="annulus" class="annulus-chart"></div>
+        </div>
+
+    </div>
+
+    
+    
+
+    <!-- Visualisation 7: Fire Alerts Line Graph  -->
+    <div class="visualisation fire_line_graph">
+        
+        <h3>Wildfires in Australia</h3>
+        <div>
+            <p> Wildfires appeared to be by far the <b>largest contibuter</b> to deforestation by far. Lets take a closer look at Wildfires. Presented below is Fire Alert data from the VIIRS satellite from NASA <em>(8)</em>. 
+                We can clearly see that the <b>largest number </b> of fire alerts appear within the <b>October - March </b> period, this is due to bushfire season within Victoria and New South Wales <em>(7)</em>. Notably <b>2012, 2019,2020 and 2023 </b>
+                had a much <b>higher </b> number of fire alerts than the average however this is due to the intense wildfires that occurred during these years. 
+            </p>
+        </div>
+
+        <div id="fire_alerts" ></div>
+
+    </div>
+
+
+    <div class="references">
         <h1>References</h1>
+        <p>Author: Osanda Wewalwala (Oct 2025)</p>
         <ol>
             <li>https://tsx.org.au/</li>
             <li>https://trustfornature.org.au/priorities/protecting-threatened-species/</li>
             <li>https://www.greenadelaide.sa.gov.au/news/2023-rare-native-plant-species</li>
             <li>https://www.dcceew.gov.au/science-research/abrs/publications/other/numbers-living-species/discussion-plants</li>
+            <li>https://www.globalforestwatch.org/</li>
+            <li>https://www.ga.gov.au/</li>
+            <li>https://www.cfa.vic.gov.au/</li>
+            <li>https://www.earthdata.nasa.gov/data/instruments/viirs/viirs-i-band-375-m-active-fire-data</li>
 
         </ol>
         
+    </div>
+
     </div>
     
     
@@ -75,14 +234,27 @@
         var vg_1 = "./Visualisations/BarGraph.vg.json";
         var vg_2 = "./Visualisations/DotMap.vg.json";
         var vg_3 = "./Visualisations/TimeSeries.vg.json";
+        var vg_4 = "./Visualisations/ForestMap.vg.json";
+        var vg_5 = "./Visualisations/AreaChart.vg.json";
+        var vg_6 = "./Visualisations/LineGraph.vg.json";
+        var vg_7 = "./Visualisations/FireAlerts.vg.json";
 
         vegaEmbed("#bar_chart",vg_1).then(function(result){}).catch(console.error);
 
         vegaEmbed("#dot_map",vg_2).then(function(result){}).catch(console.error);
 
         vegaEmbed("#time_series",vg_3).then(function(result){}).catch(console.error);
+
+        vegaEmbed("#choropleth",vg_4).then(function(result){}).catch(console.error);
+
+        vegaEmbed("#annulus",vg_5).then(function(result){}).catch(console.error);
+
+        vegaEmbed("#line_graph",vg_6).then(function(result){}).catch(console.error);
+
+        vegaEmbed("#fire_alerts",vg_7).then(function(result){}).catch(console.error);
+
+
     </script>
 </body>
 
 </html>
-
