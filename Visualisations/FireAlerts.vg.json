@@ -1,0 +1,55 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": 800,
+  "height": 450,
+  "title": "Weekly Fire Alerts across Australia ",
+  "data":{
+        "url": "https://raw.githubusercontent.com/owew0001/FIT3179/refs/heads/main/Data/FireAlerts.csv"
+
+      },
+    "params": [{"name": "selected_year",
+    "value":2012,
+    "bind":{"input": "range",
+            
+                "min": 2012,
+                "max": 2025,
+            "step": 1,
+            "name": "Select Year"}
+}],     
+    "transform": [{"filter":"datum.alert__year==selected_year"}],
+
+  "layer": [
+    { "transform": [
+        { "calculate": "'Selected Year'", "as": "type" }
+      ],
+
+      "mark":{"type": "line", "point":true },
+
+      "encoding": {
+        "x":{"field":"month_day","type": "temporal", "axis":{"title":"Date", "format":"%b %d", "labelAngle":-45}},
+
+        "y":{"field":"alert__count","type":"quantitative","scale":{"domain":[0,20000]}, "axis": {"title": "Fire Alerts"}},
+        "color":{"field":"type", "legend":{"title":""},"scale":{"range":["lightgray","crimson"]}},
+        "tooltip": [
+      { "field": "date", "type": "temporal", "title": "Date" },
+      { "field": "alert__count", "type": "quantitative", "title": "Weekly Alerts" }]
+        
+      }
+      
+      },
+      
+      { "transform": [
+        { "calculate": "'Average'", "as": "type" }
+      ],"mark": {"type": "line","point":{"size":20},
+            "strokeDash": [4,4]},
+        "encoding": {"y":{"field":"average", "type": "quantitative"},
+                        "x": {"field": "month_day"},
+                    "color":{"field":"type", "legend":{"title":""},"scale":{"range":["lightgray"]}},
+        "tooltip": [
+      { "field": "date", "type": "temporal", "title": "Date" },
+      { "field": "average", "type": "quantitative", "title": "Average Weekly Alerts", "format":".2f" }]}}
+      
+        
+    
+  ]
+}
